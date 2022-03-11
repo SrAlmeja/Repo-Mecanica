@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(CharacterController))]
 public class playerMovement : MonoBehaviour
 {
     Keyboard keyBoard;
@@ -27,26 +26,40 @@ public class playerMovement : MonoBehaviour
     {
         #if UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX || UNITY_EDITOR
         #endif
-        keyBoard = Keyboard.current;
-        gamepad = Gamepad.current;
-        characterController = GetComponent<CharacterController>();
+        var keyBoard = KeyBoard.current;
+        var gamepad = Gamepad.current;
+        
+        if (keyBoard == null)
+        return;
     }
     void Start()
     {
-        Prepare();
+
     }
 
     void Update()
     {
-        
+        Move();
+        Jump();
     }
 
+    void Move()
+    {
+        if (keyBoard.akey.waspressedThisFrame)
+        {
+            debug.Log("Derecha");
+        }
+        else if (keyBoard.dkey.waspressedThisFrame)
+        {
+            debug.Log ("Izquierda");
+        }
+    }
     void Jump()
     {
         if (characterController.isGrounded) 
         {
             fallForce = 0;
-            elapsedTime = 1;
+            Debug.Log("jump");
         }
         if (keyBoard.spaceKey.isPressed)
             {
@@ -54,7 +67,7 @@ public class playerMovement : MonoBehaviour
             }
             if (JumpForce <= 2)
             {
-                elapsedTime - 0.2
+                elapsedTime - 0.2;
             }
     }
 
