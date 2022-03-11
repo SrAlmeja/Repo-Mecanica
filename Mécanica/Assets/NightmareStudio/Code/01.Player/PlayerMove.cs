@@ -14,20 +14,23 @@ public class PlayerMove : MonoBehaviour
     Vector3 moveDirection;
     Vector3 verticalDirection;
 
+
     void Update()
     {
-        CheckFloar();
-        Debug.Log(gameObject.transform.position.magnitude);
+        fallForce = -9.81f;
+        jumpForce = 20;
+        moveVector = 5*(Time.deltaTime + 1);
+
+        //Debug.Log(gameObject.transform.position.magnitude);
         Movement();
         Jump();
         Fall();
-        
+        CheckFloar();
+
     }
     
      void Movement()
      {
-        moveVector = 5*(Time.deltaTime + 1);
-
          if (Input.GetKeyDown(KeyCode.D))
          {
              Vector3 rightMove = new Vector3 (moveVector,0,0);
@@ -57,15 +60,15 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
-            verticalDirection += jump*Time.deltaTime;
+            verticalDirection += (jump*Time.deltaTime);
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
-            Vector3 falling = new Vector3 (0, fallForce, 0);
-            verticalDirection += ((-jump)+(falling/5))*Time.deltaTime;
+            
+            verticalDirection += (jump*-1.5f)*Time.deltaTime;
         }
-        gameObject.transform.position += (verticalDirection * (Time.deltaTime/3));
+        gameObject.transform.position += ((verticalDirection * Time.deltaTime) - ((verticalDirection/10) * Time.deltaTime));
     }
 
     void Fall()
@@ -77,26 +80,22 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-             gameObject.transform.position += (falling * -1);
+             gameObject.transform.position += (falling * -1)*Time.deltaTime;
         }
     }
 
     void CheckFloar()
     {
-        
-        
-        
         float previo;
         if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
         {
             isGrounded = true;
             previo = fallForce;
             fallForce = 0;
-            jumpForce = 20*(Time.deltaTime + 1);
         }
         else
         {
-            fallForce = 10*(Time.deltaTime);
+ 
             isGrounded = false;  
         }
     }
