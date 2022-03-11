@@ -10,8 +10,8 @@ public class PlayerMovement : MonoBehaviour
    }
 
    void Update() {
+       /*
     var keyboard = Keyboard.current;
-    var gamepad  = Gamepad.current;
     
     if(keyboard == null)
         return;
@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Debug.Log("Left");
         }
-
+*/
 
 
    }
