@@ -1,25 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMove : MonoBehaviour
 {
     public GameObject player;
-    float jumpForce = 30;
+    [SerializeField]float jumpForce;
     int jumpLimit;
-    private PlayerControls _controls;
     private Vector3 theVector; 
     public bool isGrounded;
-    float fallForce = -9.81f;
-
-    void Awake() 
-    {
-        _controls = new PlayerControls();    
-    }
+    [SerializeField]float fallForce = (-9.81f);
     void Start()
     {
-        
+        jumpForce = 20;
     }
 
     // Update is called once per frame
@@ -27,21 +20,48 @@ public class PlayerMove : MonoBehaviour
     {
         //Debug.Log(gameObject.transform.position.magnitude);
         CheckFloar();
-        fall();  
+        fall();
+        gameObject.transform.position += theVector * Time.deltaTime;
+        Jump();
+        Down();
+        if(!isGrounded)
+        {
+            jumpForce = -(jumpForce - fallForce);
+            fallForce += ((-9.81f * Time.deltaTime));
+        }
+        else if(isGrounded)
+        {
+            fallForce = 0;
+            jumpForce = 20;
+        }
     }
+    
+     
 
-    public void Jump (InputAction.CallbackContext context)
+    void Jump()
     {
-        Vector3 jump = new Vector3 (0, jumpForce, 0);
-        gameObject.transform.position += jump;
-        Debug.Log("jumping >D");
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
+        {
+            Vector3 jump = new Vector3 (0, jumpForce, 0);
+            if(jumpForce >= 0.1)
+                {
+                    theVector += (jump);
+                }
+                else if(jumpForce <= 0)
+                    {
+                        theVector -= jump;
+                    }
+            Debug.Log("jumping >D");
+        }   
     }
-
-    public void Down (InputAction.CallbackContext context)
+    void Down()
     {
-        Vector3 jump = new Vector3 (0, jumpForce, 0);
-        gameObject.transform.position -= jump;
-        Debug.Log("AntiSaltanding");
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            Vector3 jump = new Vector3 (0, theVector.y, 0);
+            theVector -= jump;
+            Debug.Log("AntiSaltanding");
+        }
     }
 
     void fall()
@@ -69,7 +89,7 @@ public class PlayerMove : MonoBehaviour
         else
         {
             fallForce = -9.81f;
-            isGrounded = false;
+            isGrounded = false;  
         }
     }
 }
