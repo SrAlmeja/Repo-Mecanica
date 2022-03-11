@@ -3,76 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
-    Keyboard keyBoard;
-    Gamepad gamepad;
-    CharacterController characterController;
+   void Start() {
+       
+   }
+
+   void Update() {
+    var keyboard = Keyboard.current;
+    var gamepad  = Gamepad.current;
     
-    private Vector2 movementDirection;
-    private float startSpeed;
-    private float runAceleration;
-    private float JumpForce;
-    private double fallForce;
-    private double jumpDesaceleration;
-    public Transform floarChecking;
-    public float maxspeed;
-    public float jumpTop;
-    public float elapsedTime;
-
-
-
-    void Prepare()
-    {
-        #if UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX || UNITY_EDITOR
-        #endif
-        var keyBoard = KeyBoard.current;
-        var gamepad = Gamepad.current;
-        
-        if (keyBoard == null)
+    if(keyboard == null)
         return;
-    }
-    void Start()
-    {
 
-    }
-
-    void Update()
-    {
-        Move();
-        Jump();
-    }
-
-    void Move()
-    {
-        if (keyBoard.akey.waspressedThisFrame)
+        if(keyboard.spaceKey.wasPressedThisFrame)
         {
-            debug.Log("Derecha");
+            Debug.Log("Jump");
         }
-        else if (keyBoard.dkey.waspressedThisFrame)
-        {
-            debug.Log ("Izquierda");
-        }
-    }
-    void Jump()
-    {
-        if (characterController.isGrounded) 
-        {
-            fallForce = 0;
-            Debug.Log("jump");
-        }
-        if (keyBoard.spaceKey.isPressed)
-            {
-                JumpForce = jumpTop;
-            }
-            if (JumpForce <= 2)
-            {
-                elapsedTime - 0.2;
-            }
-    }
+            
 
-    void fall ()
-    {
-        fallForce = -9.81;
-    }
+        if (keyboard.rightArrowKey.isPressed) 
+        {
+            Debug.Log("Right");
+        }
+        else if (keyboard.leftArrowKey.isPressed)
+        {
+            Debug.Log("Left");
+        }
+
+        if (keyboard.aKey.isPressed) 
+        {
+            Debug.Log("Right");
+        }
+        else if (keyboard.dKey.isPressed)
+        {
+            Debug.Log("Left");
+        }
+
+
+
+   }
 }
