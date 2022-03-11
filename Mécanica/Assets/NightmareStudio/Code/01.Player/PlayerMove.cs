@@ -7,21 +7,29 @@ public class PlayerMove : MonoBehaviour
     public GameObject player;
     [SerializeField]float jumpForce;
     int jumpLimit;
-    private Vector3 theVector; 
+    private Vector3 theVector;
+    [SerializeField] float moveVector;
+    [SerializeField] float acelerationMove;
     public bool isGrounded;
     [SerializeField]float fallForce = (-9.81f);
+    Vector3 moveDirection;
+
+
     void Start()
     {
         jumpForce = 20;
+        moveVector = 5*(Time.deltaTime + 1);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        RightMovement();
+        LeftMovement();
         //Debug.Log(gameObject.transform.position.magnitude);
         CheckFloar();
         fall();
         gameObject.transform.position += theVector * Time.deltaTime;
+        gameObject.transform.position += moveDirection * Time.deltaTime;
         Jump();
         Down();
         if(!isGrounded)
@@ -36,7 +44,22 @@ public class PlayerMove : MonoBehaviour
         }
     }
     
-     
+     void RightMovement()
+     {
+         if (Input.GetKeyDown(KeyCode.D))
+         {
+             Vector3 rightMove = new Vector3 (moveVector,0,0);
+             moveDirection += (rightMove);
+         }
+     }
+     void LeftMovement()
+     {
+         if (Input.GetKeyDown(KeyCode.A))
+         {
+             Vector3 rightMove = new Vector3 (moveVector,0,0);
+             moveDirection -= (rightMove);
+         }
+     }
 
     void Jump()
     {
