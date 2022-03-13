@@ -60,15 +60,16 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
-            verticalDirection += (jump*Time.deltaTime);
+            verticalDirection += (jump);
+        
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
             
-            verticalDirection += (jump*-1.5f)*Time.deltaTime;
+            verticalDirection -= (jump)*Time.deltaTime;
         }
-        gameObject.transform.position += ((verticalDirection * Time.deltaTime) - ((verticalDirection/10) * Time.deltaTime));
+        gameObject.transform.position += (verticalDirection);
     }
 
     void Fall()
@@ -95,7 +96,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
- 
+            fallForce = -5;
             isGrounded = false;  
         }
     }
