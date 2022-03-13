@@ -13,13 +13,16 @@ public class PlayerMove : MonoBehaviour
     [SerializeField]float fallForce = (-9.81f);
     Vector3 moveDirection;
     Vector3 verticalDirection;
+    float elapsedTime;
+    bool jumptime;
 
-
+    void Start() {
+        elapsedTime = 0;
+    }
     void Update()
     {
-        fallForce = -9.81f;
-        jumpForce = 20;
-        moveVector = 5*(Time.deltaTime + 1);
+        jumpForce  = 15;
+        
 
         //Debug.Log(gameObject.transform.position.magnitude);
         Movement();
@@ -27,10 +30,20 @@ public class PlayerMove : MonoBehaviour
         Fall();
         CheckFloar();
 
+        if(jumptime == true)
+        {
+            elapsedTime += 0.5f * Time.deltaTime;
+            if(elapsedTime >= 1f)
+            {
+                elapsedTime = 0;
+                jumptime = false;
+            }
+        }
     }
     
      void Movement()
      {
+         moveVector = 5*(Time.deltaTime + 1);
          if (Input.GetKeyDown(KeyCode.D))
          {
              Vector3 rightMove = new Vector3 (moveVector,0,0);
@@ -61,19 +74,23 @@ public class PlayerMove : MonoBehaviour
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
             verticalDirection += (jump);
-        
+            jumptime = true;
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             Vector3 jump = new Vector3 (0, jumpForce, 0);
             
-            verticalDirection -= (jump)*Time.deltaTime;
+            verticalDirection -= (jump);
         }
-        gameObject.transform.position += (verticalDirection);
+        gameObject.transform.position += (verticalDirection)* Time.deltaTime;
+        if (jumptime == false){
+            gameObject.transform.position -= (verticalDirection)* Time.deltaTime;
+        }
     }
 
     void Fall()
     {
+
         Vector3 falling = new Vector3(0,fallForce, 0); 
         if(!isGrounded)
         {
@@ -83,6 +100,7 @@ public class PlayerMove : MonoBehaviour
         {
              gameObject.transform.position += (falling * -1)*Time.deltaTime;
         }
+        
     }
 
     void CheckFloar()
@@ -96,7 +114,7 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            fallForce = -5;
+            fallForce = -9.81F;
             isGrounded = false;  
         }
     }
