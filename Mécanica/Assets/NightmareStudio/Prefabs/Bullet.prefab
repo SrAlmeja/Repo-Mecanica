@@ -126,4 +126,6 @@ MonoBehaviour:
   player: {fileID: 6326983350693270340}
   planets:
   - {fileID: 4536348724962689378, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
+  - {fileID: 2711589414501440809, guid: 870ee9ee36b104e49b6b0a2369754ddd, type: 3}
+  - {fileID: 8024972706706408645, guid: fcbc762097dfc72429a6ca400abe06d0, type: 3}
   isGrounded: 0

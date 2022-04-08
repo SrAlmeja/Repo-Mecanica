@@ -33,7 +33,7 @@ public class GravityPlanetFisics : MonoBehaviour
         
         //Checking the closer planet
         closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
-       for(int i = 1; i<planets.Length; i++)
+       for(int i = 0; i<planets.Length; i++)
        {
            planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
            if (planetDistance < closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
@@ -44,7 +44,7 @@ public class GravityPlanetFisics : MonoBehaviour
         
         //Gravity Fisics
         fallSpeed -= 0.0981f * Time.deltaTime;
-        Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x,planets[0].transform.position.y,0);
+        Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x,planets[closerPlanet].transform.position.y,0);
         Vector3 playerPos = new Vector3 (player.transform.position.x,player.transform.position.y,0);
         Vector3 gravityDirection = new Vector3 ((playerPos.x - planetPos.x),(playerPos.y - planetPos.y),0);
         Vector3 gravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
@@ -72,7 +72,7 @@ public class GravityPlanetFisics : MonoBehaviour
             isGrounded = true;
             fallSpeed=0;
         }
-        else if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,0.5f))
         {
             isGrounded = true;
             fallSpeed=0;
