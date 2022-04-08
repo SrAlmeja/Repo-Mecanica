@@ -43,29 +43,15 @@ public class PlayerMove2 : MonoBehaviour
     
      void Movement()
      {
-         moveVector = 5*(Time.deltaTime + 1);
-         if (Input.GetKeyDown(KeyCode.D))
+         moveVector = 5*Time.deltaTime;
+         if (Input.GetKey(KeyCode.D))
          {
-             Vector3 rightMove = new Vector3 (moveVector,0,0);
-             moveDirection += (rightMove);
+             transform.Translate(new Vector3 (moveVector,0,0));
          }
-         if (Input.GetKeyDown(KeyCode.A))
+         if (Input.GetKey(KeyCode.A))
          {
-             Vector3 rightMove = new Vector3 (moveVector,0,0);
-             moveDirection -= (rightMove);
+             transform.Translate(new Vector3 (-moveVector,0,0));
          }
-         gameObject.transform.position += (moveDirection * Time.deltaTime)+((moveDirection/10) * Time.deltaTime);
-         if (Input.GetKeyUp(KeyCode.D))
-         {
-             Vector3 rightMove = new Vector3 (moveVector,0,0);
-             moveDirection += (-rightMove/3);
-         }
-         if (Input.GetKeyUp(KeyCode.A))
-         {
-             Vector3 rightMove = new Vector3 (moveVector,0,0);
-             moveDirection -= (rightMove/3);
-         }
-         gameObject.transform.position += (moveDirection * Time.deltaTime)+((moveDirection/10) * Time.deltaTime);
      }
 
     void Jump()
