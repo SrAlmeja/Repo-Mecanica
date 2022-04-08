@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GravityFisics : MonoBehaviour
 {
-    float fallSpeed;
-    bool isGrounded;
+    [SerializeField]float fallSpeed;
+    [SerializeField]bool isGrounded;
     Vector3 gravity;
     // Start is called before the first frame update
     void Start()
@@ -26,8 +26,10 @@ public class GravityFisics : MonoBehaviour
         Vector3 falling = new Vector3(0,fallSpeed, 0);
         if (!isGrounded)
         {   
-            gameObject.transform.position += (falling * -fallSpeed);
+            gameObject.transform.position += (falling);
         }
+        else
+        {fallSpeed = 0;}
     }
 
     void CheckFloar()
@@ -35,7 +37,6 @@ public class GravityFisics : MonoBehaviour
         if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
         {
             isGrounded = true;
-            fallSpeed=0;
         }
         else
         {
