@@ -13,8 +13,10 @@ public class GravityPlanetFisics : MonoBehaviour
    Vector3 gravity;
    //CheckFloar
    public bool isGrounded;
-   //Rotation figure
-
+   //Planets Distance
+    float closeDistance;
+    int closerPlanet = 0;
+    float planetDistance;
    
 
 
@@ -29,22 +31,17 @@ public class GravityPlanetFisics : MonoBehaviour
         CheckFloar();
         GravityFisics();
         
-    }
-
-
-
-    public void GravityFisics()
-    {
         //Checking the closer planet
-        
-        float closeDistance;
         closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
-       int closerPlanet = 0;
        for(int i = 1; i<planets.Length; i++)
        {
-           float planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
+           planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
            if (planetDistance < closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
        }
+    }
+    public void GravityFisics()
+    {
+        
         //Gravity Fisics
         fallSpeed -= 0.0981f * Time.deltaTime;
         Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x,planets[0].transform.position.y,0);
