@@ -7,20 +7,21 @@ public class GravityPlanetFisics : MonoBehaviour
     //Gravity 
     public GameObject player;
    public GameObject[] planets;
+   float fallSpeed;
    Vector3 planetPosition;
    Vector3 PlayerPosition;
-   [SerializeField] float gravityForce;
-   public float planetMass;
-   public float objectMass;
-   Vector3 gravityLaw;
-   float distanceX;
-   float distanceY;
-   float masses;
-
+   Vector3 gravity;
    //CheckFloar
    public bool isGrounded;
+   //Rotation figure
+
+   
 
 
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
@@ -32,19 +33,16 @@ public class GravityPlanetFisics : MonoBehaviour
 
     void GravityFisics()
     {
-        gravityForce = -9.81f * Time.deltaTime;
-        masses = objectMass*planetMass;
+        fallSpeed -= 0.0981f * Time.deltaTime;
         Vector3 planetPos = new Vector3 (planets[0].transform.position.x,planets[0].transform.position.y,0);
         Vector3 playerPos = new Vector3 (player.transform.position.x,player.transform.position.y,0);
-        Vector3 objDist = new Vector3 ((playerPos.x -planetPos.x),(playerPos.y -planetPos.y),0);
-        Vector3 ObjectDistance2= new Vector3 ((objDist.x*objDist.x),(objDist.y*objDist.y),0);
-        Vector3 MassAndDistance = new Vector3 (masses/(ObjectDistance2.x), masses/(ObjectDistance2.y), 0);
-        gravityLaw = gravityForce * MassAndDistance;
+        Vector3 gravityDirection = new Vector3 ((playerPos.x - planetPos.x),(playerPos.y - planetPos.y),0);
+        Vector3 gravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
         if(!isGrounded)
         {
-            gameObject.transform.position = gravityLaw;
+            gameObject.transform.position += (gravity * fallSpeed);
         }
-        player.transform.rotation = Quaternion.FromToRotation(transform.up, gravityLaw) * transform.rotation;
+        player.transform.rotation = Quaternion.FromToRotation(transform.up, gravity) * transform.rotation;
     }
 
     void CheckFloar()
@@ -52,7 +50,22 @@ public class GravityPlanetFisics : MonoBehaviour
         if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
         {
             isGrounded = true;
-            gravityForce=0;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.left,0.5f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.right,0.5f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
         }
         else
         {
