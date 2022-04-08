@@ -28,16 +28,16 @@ public class GravityPlanetFisics : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckFloar();
-        GravityFisics();
-        
         //Checking the closer planet
         closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
        for(int i = 0; i<planets.Length; i++)
        {
            planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
-           if (planetDistance < closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
+           if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
+           Debug.Log(closerPlanet);
        }
+       CheckFloar();
+        GravityFisics();
     }
     public void GravityFisics()
     {
