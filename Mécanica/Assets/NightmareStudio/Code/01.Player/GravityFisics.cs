@@ -5,8 +5,8 @@ using UnityEngine;
 public class GravityFisics : MonoBehaviour
 {
     float fallSpeed;
-    bool isGrounded;
-    Vector3 gravity;
+    public bool isGrounded;
+    
     // Start is called before the first frame update
     void Start()
     {
