@@ -4,26 +4,40 @@ using UnityEngine;
 
 public class Canon : MonoBehaviour
 {
-    public float speed;
+    public GameObject CanonBullets;
+    public Transform canonFace;
+    public float spawnTime;
+    float currentSpawnTime;
     public float  NumberBullet;
-    public GameObject bullets;
+    private Vector3 initialSpeed;
     
+
     void Start()
     {
-        
+        currentSpawnTime = spawnTime;
     }
 
     void Update()
     {
-        
+        Timer();
+    }
+    void Timer()
+    {
+        if(currentSpawnTime >= 0)
+        {
+            currentSpawnTime -= Time.deltaTime;
+        }
+        else
+        { 
+            
+            Fire();
+            currentSpawnTime = 6;
+        }
     }
 
-    void fire()
+    void Fire()
     {
-
-    }
-    void rotation ()
-    {
-
+        GameObject bullets = Instantiate(CanonBullets, canonFace.position, Quaternion.identity);
+        bullets.transform.Translate (initialSpeed);
     }
 }

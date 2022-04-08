@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
     public GameObject bullet;
     Vector3 moveDirection;
     public float speed;
+    [SerializeField] float force;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +22,12 @@ public class Bullet : MonoBehaviour
     void movement()
     {
         //transform.Translate(new Vector3(speed,0,0));
-        
-        Vector3 move = new Vector3 (speed,0,0);
+        force = speed - Time.deltaTime;
+        Vector3 move = new Vector3 (force,0,0);
         moveDirection += (move) * Time.deltaTime;
         gameObject.transform.position += (moveDirection)* Time.deltaTime;
-        //Destroy(gameObject, 5);
+        
+        Destroy(gameObject, 5);
     }
 
 }
