@@ -6,7 +6,6 @@ public class GravityPlanetFisics : MonoBehaviour
 {  
     //Gravity 
     public GameObject player;
-    public GameObject feets;
    public GameObject[] planets;
    float fallSpeed;
    Vector3 planetPosition;

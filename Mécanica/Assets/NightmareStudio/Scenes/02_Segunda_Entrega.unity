@@ -293,7 +293,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 407782115}
-  feets: {fileID: 0}
   planets:
   - {fileID: 4536348724962689378, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
   - {fileID: 2711589414501440809, guid: 870ee9ee36b104e49b6b0a2369754ddd, type: 3}
@@ -335,14 +334,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549920897}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.46, y: 4.46, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.28545007, w: 0.9583936}
+  m_LocalPosition: {x: 21.43, y: 0.42, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1430196474}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.172}
 --- !u!1 &912624216
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,7 +367,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912624216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalPosition: {x: -1.14, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1430196474}
@@ -390,6 +389,8 @@ MonoBehaviour:
   canonFace: {fileID: 912624217}
   spawnTime: 5
   NumberBullet: 1
+  speed: -60
+  force: 0
 --- !u!1 &1198153175 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8371114338482986571, guid: 4df332c45509fea4a95bf086f132e128, type: 3}
@@ -422,7 +423,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430196473}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.54, y: 1.68, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 912624217}
@@ -636,7 +637,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1712428443}
-  feets: {fileID: 1712428443}
   planets:
   - {fileID: 1198153175}
   isGrounded: 0

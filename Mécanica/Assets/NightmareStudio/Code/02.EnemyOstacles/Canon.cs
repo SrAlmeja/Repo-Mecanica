@@ -29,9 +29,9 @@ public class Canon : MonoBehaviour
         }
         else
         { 
-            
             Fire();
             currentSpawnTime = 6;
+            
         }
     }
 
