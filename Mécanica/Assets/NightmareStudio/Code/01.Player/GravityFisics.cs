@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class GravityFisics : MonoBehaviour
 {
+<<<<<<< HEAD
     [SerializeField]float fallSpeed;
     [SerializeField]bool isGrounded;
     Vector3 gravity;
+=======
+    float fallSpeed;
+    public bool isGrounded;
+    
+>>>>>>> main
     // Start is called before the first frame update
     void Start()
     {
