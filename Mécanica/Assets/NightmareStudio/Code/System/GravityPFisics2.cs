@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GravityPFisics2 : MonoBehaviour
 {
-     //Gravity 
+     //Gravity
     public GameObject player;
    public GameObject[] planets;
    float fallSpeed;
