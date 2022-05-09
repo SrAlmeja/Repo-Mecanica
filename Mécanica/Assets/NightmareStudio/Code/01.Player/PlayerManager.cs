@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public MonoBehaviour Movement;
+    public MonoBehaviour Jump;
+    public MonoBehaviour CheckFlour;
+    public MonoBehaviour Gravity;
+    public MonoBehaviour Colision;
+
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
+
     }
 }
