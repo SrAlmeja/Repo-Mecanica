@@ -1,0 +1,10 @@
+aceleracion
+
+fuerza gravedad = masa, distancias = o aceleraci[on
+
+colision
+
+
+normaliza un vector para multiplicar el vector del planeta
+
+
