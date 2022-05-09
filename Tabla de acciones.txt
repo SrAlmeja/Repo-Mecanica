@@ -1,0 +1,56 @@
+Mecánica:
+Player: 
+•	Movimiento:  
+o	Fuerza = Masa x Aceleración
+o	Masa = Fuerza o gravedad / Aceleración
+o	Aceleración = (Velocidad f -Velocidad Inicial)/tiempo
+o	Velocidad
+o	Tiempo
+•	Rotación
+•	Gravedad
+o	Peso del objeto = Masa x gravedad
+o	Aceleración = (Velocidad f -Velocidad Inicial)/tiempo
+•	Colisión
+o	Colisión elástica entre objetos
+o	Colisión no elástica
+o	Masa = Fuerza o gravedad / Aceleración
+o	Radio
+•	Fricción
+o	Fricción
+o	Coeficiente de fricción
+o	Fuerza
+Planetas:
+•	Fuerza de atracción
+o	Fuerza 1 = Fuerza 2 = Gravedad x ((Masa 1 x masa 2)/radio2)
+•	Colisión
+Objetos:
+•	Gravedad
+o	Peso del objeto = Masa x gravedad
+o	Aceleración = (Velocidad f -Velocidad Inicial)/tiempo 
+•	Colisión
+•	Fricción
+o	Fricción
+o	Coeficiente de fricción
+o	Fuerza
+•	Rotación
+Cañón:
+•	Instanciado de bala
+•	Rotación
+•	Colisión
+•	Movimiento de rotación (Opcional)
+Bala:
+•	Rotación
+•	Movimiento
+o	Fuerza = Masa x Aceleración
+o	Masa = Fuerza o gravedad / Aceleración
+o	Aceleración = (Velocidad f -Velocidad Inicial)/tiempo
+o	Velocidad
+o	Tiempo
+•	Gravedad
+o	Peso del objeto = Masa x gravedad
+o	Aceleración = (Velocidad f -Velocidad Inicial)/tiempo 
+•	Colisión
+•	Fricción
+o	Fricción
+o	Coeficiente de fricción
+o	Fuerza
