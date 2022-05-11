@@ -4,57 +4,61 @@ using UnityEngine;
 
 public class GravityPFisics2 : MonoBehaviour
 {
-     //Gravity
-    public GameObject player;
+    //Gravity
    public GameObject[] planets;
-   float fallSpeed;
+   public GameObject theObject;
+   float gravityForce;
    Vector3 planetPosition;
-   Vector3 PlayerPosition;
+   Vector3 objectPosition;
    Vector3 gravity;
+   public int mass;
+   public IntVariable mass2;
+    float AtractionForce1;
+    float AtractionForce2;
+
+    float closeDistance;
+    int closerPlanet = 0;
+    float planetDistance;
+    //Aceleration
+    [SerializeField]float aceleration;
+    public float FinalSpeed;
+    public float InitialSpeed;
    //CheckFloar
-   public bool isGrounded;
+   [SerializeField] BooleanVariable isGrounded;
    //Rotation figure
 
-   
+   void awake()
+   {
+       
+   }
 
 
     void Start()
     {
-        
+        InitialSpeed = 0.5f;
+        aceleration = gravityForce;
     }
 
     // Update is called once per frame
     void Update()
     {
-        CheckFloar();
-        GravityFisics();
+        
     }
 
-
-    void GravityFisics()
+    void GravitySystem()
     {
-        fallSpeed -= 0.0981f * Time.deltaTime;
-        Vector3 planetPos = new Vector3 (planets[0].transform.position.x,planets[0].transform.position.y,0);
-        Vector3 playerPos = new Vector3 (player.transform.position.x,player.transform.position.y,0);
-        Vector3 gravityDirection = new Vector3 ((playerPos.x - planetPos.x),(playerPos.y - planetPos.y),0);
+        //Distance
+        Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x,planets[closerPlanet].transform.position.y,0);
+        Vector3 objectPos = new Vector3 (theObject.transform.position.x,theObject.transform.position.y,0);
+        //Gravity Fisics
+        Vector3 gravityDirection = new Vector3 ((objectPos.x - planetPos.x),(objectPos.y - planetPos.y),0);
         Vector3 gravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
-        if(!isGrounded)
-        {
-            gameObject.transform.position += (gravity * fallSpeed);
-        }
-        player.transform.rotation = Quaternion.FromToRotation(transform.up, gravity) * transform.rotation;
+        
+
+        // Aceleración = (Velocidad f -Velocidad Inicial)/tiempo 
+        FinalSpeed = (aceleration + InitialSpeed) * Time.deltaTime;
+        //En caso de planetas fuerza de atraccion]
     }
 
-    void CheckFloar()
-    {
-        if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
-        {
-            isGrounded = true;
-            fallSpeed=0;
-        }
-        else
-        {
-            isGrounded = false;
-        }
-    }
+   
 }

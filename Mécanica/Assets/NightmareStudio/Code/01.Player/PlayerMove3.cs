@@ -23,7 +23,8 @@ public class PlayerMove3 : MonoBehaviour
     {
         Movement();
     }
-
+    
+    
     void Movement()
     {
         //Fuerza = Masa x Aceleración

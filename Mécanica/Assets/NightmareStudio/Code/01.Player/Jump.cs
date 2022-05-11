@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-    public FloatVariable Gravity;
-    public IntVariable Mass;
+    [SerializeField] FloatVariable Gravity;
+    [SerializeField] IntVariable Mass;
     public BooleanVariable IsGrounded;
     private GravityPlanetFisics gPF;
 
