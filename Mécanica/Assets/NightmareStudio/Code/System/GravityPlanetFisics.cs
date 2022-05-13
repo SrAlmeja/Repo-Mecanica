@@ -10,7 +10,7 @@ public class GravityPlanetFisics : MonoBehaviour
    float fallSpeed;
    Vector3 planetPosition;
    Vector3 PlayerPosition;
-   Vector3 gravity;
+   public Vector3 gravity;
    //CheckFloar
    public bool isGrounded;
    //Planets Distance
@@ -31,11 +31,11 @@ public class GravityPlanetFisics : MonoBehaviour
            Debug.Log(closerPlanet);
        }
        CheckFloar();
-        GravityFisics();
+       GravityFisics();
     }
+
     public void GravityFisics()
     {
-        
         //Gravity Fisics
         fallSpeed -= 0.0981f * Time.deltaTime;
         Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x,planets[closerPlanet].transform.position.y,0);
@@ -55,7 +55,7 @@ public class GravityPlanetFisics : MonoBehaviour
 
     public void CheckFloar()
     {
-        if(Physics.Raycast(gameObject.transform.position,Vector3.down,0.5f))
+        if(Physics.Raycast(gameObject.transform.position,Vector3.down,1f))
         {
             isGrounded = true;
             fallSpeed=0;
@@ -70,7 +70,7 @@ public class GravityPlanetFisics : MonoBehaviour
             isGrounded = true;
             fallSpeed=0;
         }
-        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,0.5f))
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,1f))
         {
             isGrounded = true;
             fallSpeed=0;

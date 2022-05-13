@@ -15,7 +15,6 @@ public class PlayerMove2 : MonoBehaviour
     Vector3 verticalDirection;
     float elapsedTime;
     bool jumptime;
-
     void Start() {
         elapsedTime = 0;
     }
