@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Mass Planet 1
   m_EditorClassIdentifier: 
   DeveloperDecription: 
-  Value: {x: 0, y: 0}
+  Value: {x: 90000000, y: 90000}

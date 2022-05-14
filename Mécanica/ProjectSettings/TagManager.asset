@@ -3,12 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - jelly
+  - Planet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Planet
   - Water
   - UI
   - 

@@ -10,7 +10,7 @@ public class GravityPFisics2 : MonoBehaviour
    float gravityForce;
    Vector2 planetPosition;
    Vector2 objectPosition;
-   Vector2 gravity;
+   Vector3 gravity;
    Vector2 mass;
    public VectorVariable mass2;
    float AtractionForce1;
@@ -27,22 +27,26 @@ public class GravityPFisics2 : MonoBehaviour
    //Aceleration
    [SerializeField]Vector2 acelerationSpeed;
    public float FinalSpeed;
-   public float InitialSpeed;
+   float InitialSpeed;
    //CheckFloar
-   //[SerializeField] BooleanVariable isGrounded;
-   bool isGrounded;
+   public bool isGrounded;
    //Segunda prueba
    public float fallSpeed2;
    //Drag
    float Density;
    float Zone = 1;
    float Coeficient = 1;
-   
+   float speed;
+   Vector3 move;
+   Vector3 dragVector;
+   bool dragZone;
+
 
     void Update()
     {
-        CheckFloar();
+        //CheckFloar();
         GravitySystem();
+        transform.Translate(move);
     }
 
     void GravitySystem()
@@ -60,7 +64,7 @@ public class GravityPFisics2 : MonoBehaviour
         //Masa
         //mass = new Vector2 ((gravity.x/acelerationSpeed.x),(gravity.y/acelerationSpeed.y));
         //Peso de objetos
-        //weightObject =  new Vector2 ((mass.x * gravity.x), (mass.y * gravity.y));
+        weightObject =  new Vector2 ((mass.x * gravity.x), (mass.y * gravity.y));
         //Gravity
         //distanceBetweenObjects =((gravityDirection.x + gravityDirection.y)/2);
         //Ley de la Gravitacion universal
@@ -68,7 +72,25 @@ public class GravityPFisics2 : MonoBehaviour
         //Action
         if(!isGrounded)
             {
-               gameObject.transform.position += (gravity.normalized * fallSpeed);
+                move += (gravity.normalized * fallSpeed);  
+                if(dragZone == true)
+                {
+                    Zone = 1;
+                    speed = acelerationSpeed.magnitude;
+                    dragVector = (-0.5f * Density * Mathf.Pow(speed, 2) * Coeficient * Zone) * move;
+                    Debug.Log(dragVector);
+                    //gameObject.transform.position += dragVector;
+                    if(dragVector.magnitude >= move.magnitude)
+                    {
+                        move = (Vector3.zero);
+                        move += (gravity.normalized * fallSpeed);
+                    }
+                    else
+                    {
+                        //gameObject.transform.position += (gravity.normalized * fallSpeed);
+                        move += dragVector;
+                    }
+                }
             }
             theObject.transform.rotation = Quaternion.FromToRotation(transform.up, gravity) * transform.rotation;
             return;
@@ -80,32 +102,60 @@ public class GravityPFisics2 : MonoBehaviour
     }
     
     //Drag
+    
     public void OnTriggerEnter(Collider other) 
     {
         if(other.tag == "jelly")
         {
-            gameObject.transform.position +- (-0.5f)
+            Density = other.gameObject.GetComponent<GetDensity>().density;
+            dragZone = true;
+        }
+    }
+    public void OnTriggerExit(Collider other) 
+    {
+        if(other.tag == "jelly")
+        {
+            dragZone = false;
+        }
+        
+    }
+
+    private void OnCollisionEnter(Collision other) {
+        if(other.gameObject.tag == "Planet")
+        {
+            isGrounded = true;
+            FinalSpeed = 0;
+            move = Vector3.zero;
+        }
+    }
+    private void OnCollisionExit(Collision other) {
+        if(other.gameObject.tag == "Planet")
+        {
+            isGrounded = false;
+            FinalSpeed = 0.1f;
+            move = Vector3.zero;
         }
     }
 
+/*
     public void CheckFloar()
     {
-        if(Physics.Raycast(gameObject.transform.position,Vector3.down,1f))
+        if(Physics.Raycast(gameObject.transform.position,Vector3.down,1f, planetLayerMask.value))
         {
             isGrounded = true;
             fallSpeed=0;
         }
-        else if(Physics.Raycast(gameObject.transform.position,Vector3.left,0.5f))
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.left,0.5f, planetLayerMask.value))
         {
             isGrounded = true;
             fallSpeed=0;
         }
-        else if(Physics.Raycast(gameObject.transform.position,Vector3.right,0.5f))
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.right,0.5f, planetLayerMask.value))
         {
             isGrounded = true;
             fallSpeed=0;
         }
-        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,1f))
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,1f, planetLayerMask.value))
         {
             isGrounded = true;
             fallSpeed=0;
@@ -115,7 +165,7 @@ public class GravityPFisics2 : MonoBehaviour
             isGrounded = false;
             return;
         }
-    }
+    }*/
 
 
    
