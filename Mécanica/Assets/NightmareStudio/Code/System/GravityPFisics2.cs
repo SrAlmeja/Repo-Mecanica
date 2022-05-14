@@ -33,22 +33,16 @@ public class GravityPFisics2 : MonoBehaviour
    bool isGrounded;
    //Segunda prueba
    public float fallSpeed2;
+   //Drag
+   float Density;
+   float Zone = 1;
+   float Coeficient = 1;
+   
 
-   void awake()
-   {
-       
-   }
-
-
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        CheckFloar();
         GravitySystem();
-        isGrounded = false;
     }
 
     void GravitySystem()
@@ -63,15 +57,14 @@ public class GravityPFisics2 : MonoBehaviour
         //Aceleration
         acelerationSpeed = new Vector3 (((FinalSpeed-InitialSpeed)/Time.deltaTime), ((FinalSpeed-InitialSpeed)/Time.deltaTime),0);
         fallSpeed = ((acelerationSpeed.x + acelerationSpeed.y)/2)*fallSpeed2;
-        
         //Masa
-        mass = new Vector2 ((gravity.x/acelerationSpeed.x),(gravity.y/acelerationSpeed.y));
+        //mass = new Vector2 ((gravity.x/acelerationSpeed.x),(gravity.y/acelerationSpeed.y));
         //Peso de objetos
-        weightObject =  new Vector2 ((mass.x * gravity.x), (mass.y * gravity.y));
+        //weightObject =  new Vector2 ((mass.x * gravity.x), (mass.y * gravity.y));
         //Gravity
-        distanceBetweenObjects =((gravityDirection.x + gravityDirection.y)/2);
+        //distanceBetweenObjects =((gravityDirection.x + gravityDirection.y)/2);
         //Ley de la Gravitacion universal
-        Vector3 gravityLaw = new Vector3 ((gravity.x*((mass.x*mass2.Value.x))/(Mathf.Pow(distanceBetweenObjects,2))),(gravity.y*((mass.y*mass2.Value.y))/(Mathf.Pow(distanceBetweenObjects,2))),0);
+        //Vector3 gravityLaw = new Vector3 ((gravity.x*((mass.x*mass2.Value.x))/(Mathf.Pow(distanceBetweenObjects,2))),(gravity.y*((mass.y*mass2.Value.y))/(Mathf.Pow(distanceBetweenObjects,2))),0);
         //Action
         if(!isGrounded)
             {
@@ -79,9 +72,51 @@ public class GravityPFisics2 : MonoBehaviour
             }
             theObject.transform.rotation = Quaternion.FromToRotation(transform.up, gravity) * transform.rotation;
             return;
-
-    
     }
+
+    void Friction()
+    {
+
+    }
+    
+    //Drag
+    public void OnTriggerEnter(Collider other) 
+    {
+        if(other.tag == "jelly")
+        {
+            gameObject.transform.position +- (-0.5f)
+        }
+    }
+
+    public void CheckFloar()
+    {
+        if(Physics.Raycast(gameObject.transform.position,Vector3.down,1f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.left,0.5f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.right,0.5f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else if(Physics.Raycast(gameObject.transform.position,Vector3.up,1f))
+        {
+            isGrounded = true;
+            fallSpeed=0;
+        }
+        else
+        {
+            isGrounded = false;
+            return;
+        }
+    }
+
 
    
 }
