@@ -26,7 +26,7 @@ public class GravityPlanetFisics : MonoBehaviour
         {
             planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
             if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
-            Debug.Log(closerPlanet);
+            Debug.Log("Closer Planet " + closerPlanet);
         }
         //CheckFloar();
         GravityFisics();

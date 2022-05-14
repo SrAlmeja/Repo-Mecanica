@@ -77,8 +77,13 @@ public class GravityPFisics2 : MonoBehaviour
                 {
                     Zone = 1;
                     speed = acelerationSpeed.magnitude;
+                    Debug.Log("Density " + Density);
+                    Debug.Log("speed " + speed);
+                    Debug.Log("Coeficient " + Coeficient);
+                    Debug.Log("zone " + Zone);
+                    
                     dragVector = (-0.5f * Density * Mathf.Pow(speed, 2) * Coeficient * Zone) * move;
-                    Debug.Log(dragVector);
+                    Debug.Log("Drag vector" + dragVector);
                     //gameObject.transform.position += dragVector;
                     if(dragVector.magnitude >= move.magnitude)
                     {
@@ -89,7 +94,9 @@ public class GravityPFisics2 : MonoBehaviour
                     {
                         //gameObject.transform.position += (gravity.normalized * fallSpeed);
                         move += dragVector;
+                        
                     }
+                    Debug.Log("move " + move);
                 }
             }
             theObject.transform.rotation = Quaternion.FromToRotation(transform.up, gravity) * transform.rotation;
@@ -125,7 +132,7 @@ public class GravityPFisics2 : MonoBehaviour
         {
             isGrounded = true;
             FinalSpeed = 0;
-            move = Vector3.zero;
+            move = (Vector3.zero);
         }
     }
     private void OnCollisionExit(Collision other) {
@@ -133,7 +140,7 @@ public class GravityPFisics2 : MonoBehaviour
         {
             isGrounded = false;
             FinalSpeed = 0.1f;
-            move = Vector3.zero;
+            //move = Vector3.zero;
         }
     }
 
