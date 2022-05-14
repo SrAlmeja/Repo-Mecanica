@@ -47,9 +47,21 @@ public class GravityPFisics2 : MonoBehaviour
 
     void Update()
     {
+        ObjectsDistance();
         //CheckFloar();
         GravitySystem();
         transform.Translate(move);
+    }
+
+    void ObjectsDistance()
+    {
+        closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);    
+        for(int i = 0; i<planets.Length; i++)
+        {
+            planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
+            if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
+            Debug.Log("Closer Planet " + closerPlanet);
+        }
     }
 
     void GravitySystem()
