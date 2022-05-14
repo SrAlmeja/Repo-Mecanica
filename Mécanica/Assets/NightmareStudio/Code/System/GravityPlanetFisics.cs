@@ -18,20 +18,20 @@ public class GravityPlanetFisics : MonoBehaviour
     int closerPlanet = 0;
     float planetDistance;
    
-
-    // Update is called once per frame
     void Update()
     {
         //Checking the closer planet
-    closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
-       for(int i = 0; i<planets.Length; i++)
-       {
-           planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
-           if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
-           Debug.Log(closerPlanet);
-       }
-       CheckFloar();
-       GravityFisics();
+        closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);    
+        for(int i = 0; i<planets.Length; i++)
+        {
+            planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
+            if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
+            Debug.Log(closerPlanet);
+        }
+        //CheckFloar();
+        GravityFisics();
+        //Quitar este al terminar el dragg
+        isGrounded = false;
     }
 
     public void GravityFisics()
