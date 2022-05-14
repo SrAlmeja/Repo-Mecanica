@@ -41,6 +41,9 @@ public class GravityPFisics2 : MonoBehaviour
    Vector3 dragVector;
    bool dragZone;
 
+    private bool Drag = false;
+    private bool friction = false;
+
 
     void Update()
     {
@@ -105,7 +108,6 @@ public class GravityPFisics2 : MonoBehaviour
 
     void Friction()
     {
-
     }
     
     //Drag
