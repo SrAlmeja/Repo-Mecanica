@@ -25,9 +25,9 @@ public class PlayerMove2 : MonoBehaviour
 
         //Debug.Log(gameObject.transform.position.magnitude);
         Movement();
-        Jump();
-        Fall();
-        CheckFloar();
+        //Jump();
+        //Fall();
+        //CheckFloar();
 
         if(jumptime == true)
         {
@@ -45,14 +45,15 @@ public class PlayerMove2 : MonoBehaviour
          moveVector = 5*Time.deltaTime;
          if (Input.GetKey(KeyCode.D))
          {
-             transform.Translate(new Vector3 (moveVector,0,0));
+             gameObject.transform.position = new Vector3 ((gameObject.transform.position.x + 1 * Time.deltaTime),0,0);
          }
          if (Input.GetKey(KeyCode.A))
          {
-             transform.Translate(new Vector3 (-moveVector,0,0));
+             gameObject.transform.position = new Vector3 ((gameObject.transform.position.x - 1 * Time.deltaTime),0,0);
          }
      }
 
+    /*
     void Jump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
@@ -86,8 +87,8 @@ public class PlayerMove2 : MonoBehaviour
              gameObject.transform.position += (falling * -1)*Time.deltaTime;
         }
         
-    }
-
+    }*/
+/*
     void CheckFloar()
     {
         float previo;
@@ -102,5 +103,6 @@ public class PlayerMove2 : MonoBehaviour
             fallForce = -9.81F;
             isGrounded = false;  
         }
-    }
+}
+*/    
 }

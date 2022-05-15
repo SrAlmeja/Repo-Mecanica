@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class PlayerMove3 : MonoBehaviour
 {
-    [SerializeField] IntVariable Mass;
-    [SerializeField] IntVariable Speed;
-    private GravityPlanetFisics gPF;
-
-    void awake()
-    {
-        gPF = GetComponent<GravityPlanetFisics>();
-    }
+    public GameObject player;
+    public int speed;
+    Vector3 movingCharacter;
+    public float jump;
 
     void Start()
     {
@@ -22,15 +18,21 @@ public class PlayerMove3 : MonoBehaviour
     void Update()
     {
         Movement();
+        gameObject.transform.Translate(movingCharacter);
     }
     
     
     void Movement()
     {
-        //Fuerza = Masa x Aceleración
-        //Masa = Fuerza o gravedad / Aceleración
-	    //Aceleración = (Velocidad f -Velocidad Inicial)/tiempo
-	    //Velocidad
-	    //Tiempo
+         
+         if (Input.GetKey(KeyCode.D))
+         {
+            movingCharacter = new Vector3 ((gameObject.transform.position.x + 1 * Time.deltaTime),0,0);
+         }
+         if (Input.GetKey(KeyCode.A))
+         {
+             movingCharacter = new Vector3 ((gameObject.transform.position.x + 1 * Time.deltaTime),0,0);
+        }
     }
+    
 }
