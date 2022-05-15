@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 724347472}
   m_Layer: 4
   m_Name: Cube
-  m_TagString: jelly
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c459c714f0c94b43b8990d9325bc618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  density: 1
+  density: 0.05
 --- !u!1 &732817809
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +357,7 @@ GameObject:
   - component: {fileID: 732817811}
   m_Layer: 4
   m_Name: Cube (2)
-  m_TagString: jelly
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -370,8 +370,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 732817809}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.972, y: -12.912, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_LocalPosition: {x: -10.1, y: -20.84, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 1186161502}
   m_RootOrder: 2
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c459c714f0c94b43b8990d9325bc618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  density: 10
+  density: -1000
 --- !u!65 &732817812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -463,9 +463,9 @@ GameObject:
   - component: {fileID: 842765417}
   - component: {fileID: 842765416}
   - component: {fileID: 842765415}
-  - component: {fileID: 842765418}
   - component: {fileID: 842765414}
   - component: {fileID: 842765413}
+  - component: {fileID: 842765418}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -489,7 +489,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.84, y: -13.1}
+  m_AnchoredPosition: {x: -25, y: -17.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &842765413
@@ -506,7 +506,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 72
   m_CollisionDetection: 0
 --- !u!114 &842765414
 MonoBehaviour:
@@ -515,24 +515,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842765411}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bba1a0254edf8ec4186794d8a2a5b9d4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4dea3f88886b7b146aaec1cc77b7e699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   planets:
   - {fileID: 1928581394}
   - {fileID: 282101002}
+  - {fileID: 1955580018}
   theObject: {fileID: 842765411}
-  mass2: {fileID: 11400000, guid: f777550358fd0f34c8cfde00e65792d7, type: 2}
-  weightObject: {x: 0, y: 0}
-  gravityLaw: {x: 0, y: 0}
+  finalSpeedx: 0
+  finalSpeedy: 0
+  initialSpeed: 0.01
   fallSpeed: 0
-  distanceBetweenObjects: 0
-  acelerationSpeed: {x: 0, y: 0}
-  FinalSpeed: 0.1
+  fallSpeedController: 0.002
+  acelerationSpeed: {x: 0, y: 0, z: 0}
   isGrounded: 0
-  fallSpeed2: -0.0001
+  mass: 1.1
+  frictionVect: {x: 0, y: 0, z: 0}
 --- !u!136 &842765415
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -605,15 +606,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 842765411}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e3e275c83b389844ad66935fdca0a8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 553453b7c2438954692919352366b0eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 842765411}
-  planets:
-  - {fileID: 1928581394}
-  - {fileID: 282101002}
-  gravity: {x: 0, y: 0, z: 0}
-  isGrounded: 0
+  speed: 20
 --- !u!1001 &952174277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -655,11 +652,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.808
+      value: -64.1
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -34.06
+      value: -26.6
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -794,7 +791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689378, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_TagString
-      value: Planet
+      value: FrictionZone
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_RootOrder
@@ -814,11 +811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.41
+      value: -30.3
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -28.43
+      value: -24.6
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -866,8 +863,8 @@ GameObject:
   - component: {fileID: 1461005231}
   - component: {fileID: 1461005230}
   - component: {fileID: 1461005229}
-  - component: {fileID: 1461005224}
   - component: {fileID: 1461005227}
+  - component: {fileID: 1461005224}
   m_Layer: 0
   m_Name: Player (2)
   m_TagString: Untagged
@@ -891,7 +888,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -48.9, y: -21.4}
+  m_AnchoredPosition: {x: -9.19, y: -21.49}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461005224
@@ -903,13 +900,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1461005222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dea3f88886b7b146aaec1cc77b7e699, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e3e275c83b389844ad66935fdca0a8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1461005222}
   planets:
   - {fileID: 1928581394}
   - {fileID: 282101002}
-  theObject: {fileID: 1461005222}
+  gravity: {x: 0, y: 0, z: 0}
+  isGrounded: 0
 --- !u!54 &1461005227
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1135,11 +1134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -52.4
+      value: 3.3
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 6.5
       objectReference: {fileID: 0}
     - target: {fileID: 4536348724962689379, guid: 80a18529ba746f0439a6696800aa6c53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1480,7 +1479,7 @@ GameObject:
   - component: {fileID: 2068763289}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: jelly
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1511,7 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c459c714f0c94b43b8990d9325bc618, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  density: 100
+  density: 10
 --- !u!65 &2068763290
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - jelly
   - Planet
+  - Drag
+  - FrictionZone
   layers:
   - Default
   - TransparentFX

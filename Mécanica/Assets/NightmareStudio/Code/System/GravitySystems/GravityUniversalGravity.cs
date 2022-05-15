@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GravityUniversalGravity : MonoBehaviour
 {
+    //
     //GravitySystem
     //PlanetDetection
     Vector3 planetPos;
@@ -19,7 +20,8 @@ public class GravityUniversalGravity : MonoBehaviour
     Vector3 fallingObject;
     float gravityForce;
     //Aceleration
-    public float finalSpeed;
+    public float finalSpeedx;
+    public float finalSpeedy;
     public float  initialSpeed;
     [SerializeField] float fallSpeed;
     public float fallSpeedController;
@@ -32,6 +34,14 @@ public class GravityUniversalGravity : MonoBehaviour
     [SerializeField] bool isGrounded;
     float oldFallingForce;
     float oldFinalSpeed;
+    //Friction
+    bool  friction;
+    int coeficientFriction;
+    float WeightObject;
+    public float mass;
+    public Vector3 frictionVect;
+    
+    
     
     void Update() 
     {
@@ -59,12 +69,13 @@ public class GravityUniversalGravity : MonoBehaviour
         Vector3 gravityDirection = new Vector3 ((objectPos.x - planetPos.x), (objectPos.y - planetPos.y), 0);
         Vector3 gravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
 
-        //Saving gravity in a float
-        //gravityForce = Mathf.Sqrt (((Mathf.Pow(gravity.x, 2)) + ((Mathf.Pow(gravity.y, 2)))));
+        //Masa
+        gravityForce = Mathf.Sqrt (((Mathf.Pow(gravity.x, 2)) + ((Mathf.Pow(gravity.y, 2)))));
+        
         //Debug.Log("Gravityforce " + gravityForce);
 
         //Aceleration
-        acelerationSpeed = new Vector3 (((finalSpeed-initialSpeed)/Time.deltaTime), ((finalSpeed-initialSpeed)/Time.deltaTime), 0);
+        acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
         fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
         //fallSpeed = ((acelerationSpeed.x + acelerationSpeed.y)/2) * fallSpeedController;
         fallingObject = ((gravity.normalized * fallSpeed)*-1);
@@ -81,17 +92,28 @@ public class GravityUniversalGravity : MonoBehaviour
             {
                 acelerationSpeed = new Vector3 (0,0,0);
                 fallingObject = (Vector3.zero);
-                finalSpeed = 1;
+                finalSpeedx = 1;
+                finalSpeedy = 1;
             }
         }
 
         if(isGrounded)
         {
             fallSpeedController = 0;
-            finalSpeed = 0;
+            //finalSpeedx = 0;
+            finalSpeedy = 0;
             fallingObject = (Vector3.zero);
             acelerationSpeed = new Vector3 (0,0,0);
             Debug.Log("Colisione");
+
+            if(friction == true)
+            {   
+                Debug.Log("Friction is true");
+                float normalForce = mass * 9.8f;
+                coeficientFriction = 1;
+                frictionVect = (-coeficientFriction * normalForce * gameObject.transform.position.normalized)/10;
+                Debug.Log("FrictionVectValue"+frictionVect);
+            }
         }
 
         //Rotation
@@ -103,12 +125,13 @@ public class GravityUniversalGravity : MonoBehaviour
         constant = 0.5f;
         float speed = acelerationSpeed.magnitude;
         Vector3  dragVector = constant * density * speed * fallingObject.normalized;
-        float dragFloat= Mathf.Sqrt (((Mathf.Pow(dragVector.x, 2)) + ((Mathf.Pow(dragVector.y, 2)))));
-        Debug.Log("dragFloat" + dragFloat);    
+        //float dragFloat= Mathf.Sqrt (((Mathf.Pow(dragVector.x, 2)) + ((Mathf.Pow(dragVector.y, 2)))));
+        Debug.Log("dragFloat" + dragVector);    
         //gameObject.transform.position += dragVector;
         if(dragVector.magnitude >= fallingObject.magnitude)
         {
-            finalSpeed = 0;
+            finalSpeedx = 0;
+            finalSpeedy = 0;
             acelerationSpeed = new Vector3 (0,0,0);
             fallingObject = (Vector3.zero);
             //gameObject.transform.position += dragVector; 
@@ -116,20 +139,21 @@ public class GravityUniversalGravity : MonoBehaviour
         }
         else
         {
-            finalSpeed = 20 - (dragFloat);          
+            finalSpeedx = 1 - (dragVector.x);      
+            finalSpeedy = 1 - (dragVector.y);         
         }
         Debug.Log("Drag vector" + dragVector);
         Debug.Log("Density " + density);
         Debug.Log("speed " + speed);
     }
-
+    
     private void OnTriggerEnter(Collider other) 
     {
         if(other.tag == "Drag")
         {
             Debug.Log("Jelly funciona");
             dragZone = true;
-            //density = other.gameObject.GetComponent<GetDensity>().density; 
+            density = other.gameObject.GetComponent<GetDensity>().density; 
         }    
     }
 
@@ -149,6 +173,11 @@ public class GravityUniversalGravity : MonoBehaviour
         {
             isGrounded = true;
         }
+        if(other.gameObject.tag == "FrictionZone")
+        {
+            isGrounded = true;
+            friction = true;
+        }
         
     }
     private void OnCollisionExit(Collision other)
@@ -159,30 +188,18 @@ public class GravityUniversalGravity : MonoBehaviour
             isGrounded = false;
             //fallingObject = (Vector3.zero);
             fallSpeedController = 0.002f;
-            finalSpeed = 1;
+            finalSpeedx = 1;
+            finalSpeedy = 1;
             
         }
-    }
-
-/*z
-    public void CheckFloar()
-    {
-        oldFallingForce = fallSpeedController; 
-        oldFinalSpeed = finalSpeed;   
-        if(Physics.Raycast(gameObject.transform.position,Vector3.down,1f))
-        {
-            isGrounded = true;
-            fallSpeedController = 0;
-            finalSpeed = 0;
-            fallingObject = (Vector3.zero);
-        }
-        else
+        if(other.gameObject.tag == "FrictionZone")
         {
             isGrounded = false;
-            fallSpeedController = oldFallingForce;
-            finalSpeed = oldFinalSpeed;
+            friction = false;
+            fallSpeedController = 0.002f;
+            finalSpeedx = 1;
+            finalSpeedy = 1;
+            frictionVect = Vector3.zero;
         }
-        return;
     }
-    */
 }

@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PlayerMove3 : MonoBehaviour
 {
-    public GameObject player;
-    public int speed;
-    Vector3 movingCharacter;
-    public float jump;
 
+    public GameObject player;
+    private GravityUniversalGravity GUG;
+    public float speed;
+    float movingCharacter;
+    float friction;
     void Start()
     {
         
@@ -18,21 +19,24 @@ public class PlayerMove3 : MonoBehaviour
     void Update()
     {
         Movement();
-        gameObject.transform.Translate(movingCharacter);
+        movingCharacter = Input.GetAxisRaw("Horizontal");
     }
     
     
     void Movement()
     {
-         
-         if (Input.GetKey(KeyCode.D))
-         {
-            movingCharacter = new Vector3 ((gameObject.transform.position.x + 1 * Time.deltaTime),0,0);
-         }
-         if (Input.GetKey(KeyCode.A))
-         {
-             movingCharacter = new Vector3 ((gameObject.transform.position.x + 1 * Time.deltaTime),0,0);
+        friction = this.gameObject.GetComponent<GravityUniversalGravity>().frictionVect.x;
+        
+        Debug.Log("Friction " + friction);
+        if(friction > speed)
+        {
+            speed = 0;
         }
+        else
+        {
+            speed = 20-friction;
+            gameObject.transform.Translate (new Vector3 (movingCharacter, 0, 0) * speed *Time.deltaTime);
+        }
+         
     }
-    
 }
