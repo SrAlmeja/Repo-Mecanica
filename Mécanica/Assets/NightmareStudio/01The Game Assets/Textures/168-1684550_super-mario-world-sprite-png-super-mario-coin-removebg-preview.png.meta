@@ -1,0 +1,4356 @@
+fileFormatVersion: 2
+guid: caab481ba2cb3b64eb1b483b2978cdc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6534143241616953679
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_0
+  - first:
+      213: 5406856062932532886
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_1
+  - first:
+      213: 3151057856637692654
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_2
+  - first:
+      213: 3349759811795006740
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_3
+  - first:
+      213: -3088992528465470445
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_4
+  - first:
+      213: -2672268325161162368
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_5
+  - first:
+      213: 517141989035940610
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_6
+  - first:
+      213: -7851754850932963467
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_7
+  - first:
+      213: 7513130911273396029
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_8
+  - first:
+      213: 1388670605640822153
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_9
+  - first:
+      213: -8131323947452206249
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_10
+  - first:
+      213: -6448457408596894639
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_11
+  - first:
+      213: -3431190666473808216
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_12
+  - first:
+      213: 1156589339997026399
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_13
+  - first:
+      213: -4719128893219924337
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_14
+  - first:
+      213: 817524374300542368
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_15
+  - first:
+      213: -3047597407335094585
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_16
+  - first:
+      213: 7762234604959672647
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_17
+  - first:
+      213: -6939047589356932749
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_18
+  - first:
+      213: 6809168452246809738
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_19
+  - first:
+      213: -1195846999365713543
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_20
+  - first:
+      213: 117459710690437988
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_21
+  - first:
+      213: 3555206603547443151
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_22
+  - first:
+      213: -5277726312081149012
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_23
+  - first:
+      213: -1939394087691933614
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_24
+  - first:
+      213: -8059684182097034447
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_25
+  - first:
+      213: 2501299968809383567
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_26
+  - first:
+      213: -2342286202004526556
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_27
+  - first:
+      213: -8529105819884301389
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_28
+  - first:
+      213: -5137556430847126350
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_29
+  - first:
+      213: -8919375728571651856
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_30
+  - first:
+      213: -6750568439927892472
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_31
+  - first:
+      213: 4369444361049096807
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_32
+  - first:
+      213: 5751119189258692117
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_33
+  - first:
+      213: -8371655530241298191
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_34
+  - first:
+      213: -7977068240382164550
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_35
+  - first:
+      213: 7539725804532010489
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_36
+  - first:
+      213: -2789059629023056690
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_37
+  - first:
+      213: 8024662052738756096
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_38
+  - first:
+      213: -3219271150950832474
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_39
+  - first:
+      213: -1703213786279313729
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_40
+  - first:
+      213: -7962673186793334918
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_41
+  - first:
+      213: -67605094206529962
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_42
+  - first:
+      213: -7918085435155924013
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_43
+  - first:
+      213: -4385761550117177635
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_44
+  - first:
+      213: -1242759648553740061
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_45
+  - first:
+      213: 7717571548845930257
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_46
+  - first:
+      213: -1251578174674164920
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_47
+  - first:
+      213: 3399136218817050987
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_48
+  - first:
+      213: 403692866534029416
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_49
+  - first:
+      213: 3623547770043123334
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_50
+  - first:
+      213: -2507151678086123299
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_51
+  - first:
+      213: 5943576809843281519
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_52
+  - first:
+      213: 4943258955979918370
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_53
+  - first:
+      213: 243252353778405581
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_54
+  - first:
+      213: -389979092398082971
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_55
+  - first:
+      213: 7541937784961833677
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_56
+  - first:
+      213: 8964449243262927753
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_57
+  - first:
+      213: -1377337998807464459
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_58
+  - first:
+      213: -2263653307208751169
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_59
+  - first:
+      213: -2331795123624164052
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_60
+  - first:
+      213: -6598097739701913304
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_61
+  - first:
+      213: -8065516138038013942
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_62
+  - first:
+      213: 9065441213932298447
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_63
+  - first:
+      213: -6324825123225099687
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_64
+  - first:
+      213: -6448141850654174772
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_65
+  - first:
+      213: 8800318293521956662
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_66
+  - first:
+      213: -4011131218780232402
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_67
+  - first:
+      213: -4575508990153254271
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_68
+  - first:
+      213: -3062068253189998968
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_69
+  - first:
+      213: 9132664885879086238
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_70
+  - first:
+      213: 6496622360845118347
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_71
+  - first:
+      213: 8490617286367325306
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_72
+  - first:
+      213: -84899053770568282
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_73
+  - first:
+      213: -8874182552733418759
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_74
+  - first:
+      213: 1699598182416240316
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_75
+  - first:
+      213: -2632247691150899414
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_76
+  - first:
+      213: -3681677603672762474
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_77
+  - first:
+      213: -4013888697108858344
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_78
+  - first:
+      213: -6322287448768970558
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_79
+  - first:
+      213: -1389251261940542676
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_80
+  - first:
+      213: 4324752786131334815
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_81
+  - first:
+      213: -8227512077359482719
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_82
+  - first:
+      213: -6189842312522943095
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_83
+  - first:
+      213: 7341549377952830588
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_84
+  - first:
+      213: -4988980938797262506
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_85
+  - first:
+      213: 8594936294658044271
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_86
+  - first:
+      213: -6801003150707849865
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_87
+  - first:
+      213: -3122594035062111902
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_88
+  - first:
+      213: 5308157597113473574
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_89
+  - first:
+      213: -3403577044478076672
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_90
+  - first:
+      213: 1111978484177342999
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_91
+  - first:
+      213: -5634769359802210330
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_92
+  - first:
+      213: -2864167236096433426
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_93
+  - first:
+      213: 8403550221975493275
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_94
+  - first:
+      213: 229694114884237925
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_95
+  - first:
+      213: 4045010906268767161
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_96
+  - first:
+      213: 4546949837319332852
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_97
+  - first:
+      213: 3010949762308436655
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_98
+  - first:
+      213: -2061497601662351866
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_99
+  - first:
+      213: -7935150214816730844
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_100
+  - first:
+      213: 6379137192867449420
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_101
+  - first:
+      213: 3559445506453412422
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_102
+  - first:
+      213: -6712808921329462351
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_103
+  - first:
+      213: -7885980827542641518
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_104
+  - first:
+      213: -2858474961173408372
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_105
+  - first:
+      213: -3729364018768281955
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_106
+  - first:
+      213: 8746348897759164324
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_107
+  - first:
+      213: -6285561713404294760
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_108
+  - first:
+      213: -2641570180863120563
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_109
+  - first:
+      213: -516578244277737827
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_110
+  - first:
+      213: 7293975449234000701
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_111
+  - first:
+      213: -2277466124596105356
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_112
+  - first:
+      213: 1404992302505120874
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_113
+  - first:
+      213: -5356791491385538283
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_114
+  - first:
+      213: 8167850765753470325
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_115
+  - first:
+      213: -3671986881335969148
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_116
+  - first:
+      213: 3454406055696031208
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_117
+  - first:
+      213: 5764061400788152843
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_118
+  - first:
+      213: -4187981109958047350
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_119
+  - first:
+      213: -3272279995121433190
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_120
+  - first:
+      213: -7674566920078266547
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_121
+  - first:
+      213: 222043822316069727
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_122
+  - first:
+      213: -2432769267361753737
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_123
+  - first:
+      213: 4624424124584687627
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_124
+  - first:
+      213: 3944450873156620318
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_125
+  - first:
+      213: -750235460587376943
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_126
+  - first:
+      213: 8077387480274708930
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_127
+  - first:
+      213: 3749217261986161550
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_128
+  - first:
+      213: 5130279277024308146
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_129
+  - first:
+      213: -1700776968763140570
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_130
+  - first:
+      213: -1862089786829976560
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_131
+  - first:
+      213: -6128714230449542709
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_132
+  - first:
+      213: 123707057400604565
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_133
+  - first:
+      213: -4992562310059374371
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_134
+  - first:
+      213: 1876429871158891242
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_135
+  - first:
+      213: 1021084088084383972
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_136
+  - first:
+      213: 8024588194933493065
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_137
+  - first:
+      213: 8871196056897556592
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_138
+  - first:
+      213: -2048654376473886433
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_139
+  - first:
+      213: 8069631906167211380
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_140
+  - first:
+      213: -8199168892705017983
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_141
+  - first:
+      213: 2504942130326012681
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_142
+  - first:
+      213: 5045707962501512222
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_143
+  - first:
+      213: -5344916582124389154
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_144
+  - first:
+      213: -5299094072904842710
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_145
+  - first:
+      213: 4331777473268790882
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_146
+  - first:
+      213: -2770029797408689345
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_147
+  - first:
+      213: 4828420898976851791
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_148
+  - first:
+      213: -3244122405613300506
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_149
+  - first:
+      213: -729623478159576201
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_150
+  - first:
+      213: -2657366499525739546
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_151
+  - first:
+      213: -709147583345548118
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_152
+  - first:
+      213: -2114458291061306567
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_153
+  - first:
+      213: -3578306418259369181
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_154
+  - first:
+      213: 3013808446031411539
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_155
+  - first:
+      213: 5756272941457043244
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_156
+  - first:
+      213: 7499876156454331887
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_157
+  - first:
+      213: 1666933402561088265
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_158
+  - first:
+      213: -2190258868047274115
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_159
+  - first:
+      213: 1843172079015470398
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_160
+  - first:
+      213: 311408173052854234
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_161
+  - first:
+      213: 8188278837988348214
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_162
+  - first:
+      213: -232609172110982375
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_163
+  - first:
+      213: 3274525982183275477
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_164
+  - first:
+      213: -7491740200019025562
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_165
+  - first:
+      213: -1251248460773827841
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_166
+  - first:
+      213: 3697752560063839857
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_167
+  - first:
+      213: -5189872385096113765
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_168
+  - first:
+      213: -8024707804395118294
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_169
+  - first:
+      213: -953737818230400399
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_170
+  - first:
+      213: -6735713677355097708
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_171
+  - first:
+      213: 6439136627820424199
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_172
+  - first:
+      213: 3381958539670084815
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_173
+  - first:
+      213: -5143486902797545803
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_174
+  - first:
+      213: -424236022690550171
+    second: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_175
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 260
+        width: 57
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41191ca8a0fdaa50800000000000000
+      internalID: 6534143241616953679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 351
+        width: 136
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69eb2c641f2090b40800000000000000
+      internalID: 5406856062932532886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 324
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeae793fc6ecabb20800000000000000
+      internalID: 3151057856637692654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 368
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415bbe01dccbc7e20800000000000000
+      internalID: 3349759811795006740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 328
+        width: 13
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cdafa59a1b125d0800000000000000
+      internalID: -3088992528465470445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 375
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089ad36dd123aead0800000000000000
+      internalID: -2672268325161162368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 366
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b1dea26e14d2700800000000000000
+      internalID: 517141989035940610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 365
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c0be3096f80390800000000000000
+      internalID: -7851754850932963467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 364
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37257de1c0044860800000000000000
+      internalID: 7513130911273396029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 369
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6f3fee8c854310800000000000000
+      internalID: 1388670605640822153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 367
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753fb7e83fbb72f80800000000000000
+      internalID: -8131323947452206249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 370
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c985bf62a7286a0800000000000000
+      internalID: -6448457408596894639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 370
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae5130a446f160d0800000000000000
+      internalID: -3431190666473808216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 373
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58b68970e70d0010800000000000000
+      internalID: 1156589339997026399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 368
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86185e4649428eb0800000000000000
+      internalID: -4719128893219924337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 357
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a54865461e685b00800000000000000
+      internalID: 817524374300542368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 350
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e36d0e42c4b5d0800000000000000
+      internalID: -3047597407335094585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 309
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749add34f3ff8bb60800000000000000
+      internalID: 7762234604959672647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 336
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37179dc6bfc83bf90800000000000000
+      internalID: -6939047589356932749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 353
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca7fb71a60f7e50800000000000000
+      internalID: 6809168452246809738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 325
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971071d6d7f776fe0800000000000000
+      internalID: -1195846999365713543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 341
+        width: 49
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46baf1b0cfc41a100800000000000000
+      internalID: 117459710690437988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 323
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf7193d191a65130800000000000000
+      internalID: 3555206603547443151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 323
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3bbaab1efb1c6b0800000000000000
+      internalID: -5277726312081149012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 324
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25821a34a53e515e0800000000000000
+      internalID: -1939394087691933614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 330
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133854c30ff362090800000000000000
+      internalID: -8059684182097034447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 336
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f863495b11766b220800000000000000
+      internalID: 2501299968809383567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 325
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42aa837fb178e7fd0800000000000000
+      internalID: -2342286202004526556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 306
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3541a227782a980800000000000000
+      internalID: -8529105819884301389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 323
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b455d565abb3b8b0800000000000000
+      internalID: -5137556430847126350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 308
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8ee302803083480800000000000000
+      internalID: -8919375728571651856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 326
+        width: 59
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806922a15c92152a0800000000000000
+      internalID: -6750568439927892472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 273
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624a2efe7263ac30800000000000000
+      internalID: 4369444361049096807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51662b09e6410df40800000000000000
+      internalID: 5751119189258692117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 291
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0780276a7e1db80800000000000000
+      internalID: -8371655530241298191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 297
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab188fe13b2cb4190800000000000000
+      internalID: -7977068240382164550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 308
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd0afa0cac72a860800000000000000
+      internalID: 7539725804532010489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 227
+        width: 128
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecca2b26b054b49d0800000000000000
+      internalID: -2789059629023056690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 291
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eec08de935d5f60800000000000000
+      internalID: 8024662052738756096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 273
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a9e3d1f9d253d0800000000000000
+      internalID: -3219271150950832474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 292
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbef54cd518fc58e0800000000000000
+      internalID: -1703213786279313729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 268
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77d7a6bce6ee7190800000000000000
+      internalID: -7962673186793334918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 281
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e10d66681df0ff0800000000000000
+      internalID: -67605094206529962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 281
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db3650af3f4d1290800000000000000
+      internalID: -7918085435155924013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 270
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6f2bf5b15a223c0800000000000000
+      internalID: -4385761550117177635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 281
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8d3ce1fa4d0cee0800000000000000
+      internalID: -1242759648553740061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 276
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1177f992f625a1b60800000000000000
+      internalID: 7717571548845930257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 276
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8432ae1084081aee0800000000000000
+      internalID: -1251578174674164920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 272
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6931c1b1682c2f20800000000000000
+      internalID: 3399136218817050987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 260
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868be14f5843a9500800000000000000
+      internalID: 403692866534029416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 259
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686441c9f7d694230800000000000000
+      internalID: 3623547770043123334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 258
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f6ad05dec43dd0800000000000000
+      internalID: -2507151678086123299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 257
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e45fd3e93db7250800000000000000
+      internalID: 5943576809843281519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 256
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c83f774dbf99440800000000000000
+      internalID: 4943258955979918370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 226
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05db91ab4306300800000000000000
+      internalID: 243252353778405581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 226
+        width: 13
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56478c7e414869af0800000000000000
+      internalID: -389979092398082971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 228
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1fbed4785aa860800000000000000
+      internalID: 7541937784961833677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 227
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983c4bf471f186c70800000000000000
+      internalID: 8964449243262927753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 228
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f50f653366b2ece0800000000000000
+      internalID: -1377337998807464459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 228
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb72f297f43e590e0800000000000000
+      internalID: -2263653307208751169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 228
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25c46f70bcc3afd0800000000000000
+      internalID: -2331795123624164052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 242
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82972cf5019de64a0800000000000000
+      internalID: -6598097739701913304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00501e2ec7811090800000000000000
+      internalID: -8065516138038013942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 243
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0ee98d0caeecd70800000000000000
+      internalID: 9065441213932298447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 243
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a3bf8f05b938a0800000000000000
+      internalID: -6324825123225099687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 242
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc19d6a86299386a0800000000000000
+      internalID: -6448141850654174772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 242
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f7fb3acd2012a70800000000000000
+      internalID: 8800318293521956662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 242
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25ef1d88699558c0800000000000000
+      internalID: -4011131218780232402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 212
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a1f47c0d68080c0800000000000000
+      internalID: -4575508990153254271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 212
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886fb92b5295185d0800000000000000
+      internalID: -3062068253189998968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 226
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c9187a35ebdbe70800000000000000
+      internalID: 9132664885879086238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b680add93a82a50800000000000000
+      internalID: 6496622360845118347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c27bdcf6bb4d570800000000000000
+      internalID: 8490617286367325306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 226
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad0d3aa2c062def0800000000000000
+      internalID: -84899053770568282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 226
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fafa585cf198d480800000000000000
+      internalID: -8874182552733418759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbec1d3ca8f269710800000000000000
+      internalID: 1699598182416240316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 226
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27cb10dba0687bd0800000000000000
+      internalID: -2632247691150899414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 226
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d29fc9bd08ecc0800000000000000
+      internalID: -3681677603672762474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 226
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81afed81f7dcb48c0800000000000000
+      internalID: -4013888697108858344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 226
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c00730ff09b248a0800000000000000
+      internalID: -6322287448768970558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 211
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23554c765368bce0800000000000000
+      internalID: -1389251261940542676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 203
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f963db6debb940c30800000000000000
+      internalID: 4324752786131334815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 203
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a870cb5b5102dd80800000000000000
+      internalID: -8227512077359482719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 203
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98533624633491aa0800000000000000
+      internalID: -6189842312522943095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 203
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c745ed5134c62e560800000000000000
+      internalID: 7341549377952830588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595bc7d44493cab0800000000000000
+      internalID: -4988980938797262506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 203
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f617436a509574770800000000000000
+      internalID: 8594936294658044271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 202
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7750fbdeaabfd91a0800000000000000
+      internalID: -6801003150707849865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 201
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618e52f4415aa4d0800000000000000
+      internalID: -3122594035062111902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 196
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a5db3f53d5aa940800000000000000
+      internalID: 5308157597113473574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 203
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009d53206b014c0d0800000000000000
+      internalID: -3403577044478076672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 197
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71294433a8a8e6f00800000000000000
+      internalID: 1111978484177342999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 209
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ebbd1f174dc1b0800000000000000
+      internalID: -5634769359802210330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 198
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e823e21f6048d0800000000000000
+      internalID: -2864167236096433426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 196
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a110927686f9470800000000000000
+      internalID: 8403550221975493275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 199
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3cac9499003300800000000000000
+      internalID: 229694114884237925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 201
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b31bb4ecf3c22830800000000000000
+      internalID: 4045010906268767161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 178
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f360f849c20a1f30800000000000000
+      internalID: 4546949837319332852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 158
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f0fa2bda09c920800000000000000
+      internalID: 3010949762308436655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 179
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60688938ad61463e0800000000000000
+      internalID: -2061497601662351866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 180
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421fb7efbeea0e190800000000000000
+      internalID: -7935150214816730844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ac8529a7f378850800000000000000
+      internalID: 6379137192867449420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 179
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a148154d0b56130800000000000000
+      internalID: 3559445506453412422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 188
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3951f1adf47d2a0800000000000000
+      internalID: -6712808921329462351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 195
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a7c4183e5f8290800000000000000
+      internalID: -7885980827542641518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 198
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8519ebea28a458d0800000000000000
+      internalID: -2858474961173408372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 190
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e71371f23ae3cc0800000000000000
+      internalID: -3729364018768281955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 175
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7709c7bf5416970800000000000000
+      internalID: 8746348897759164324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 177
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899cdba8ce235c8a0800000000000000
+      internalID: -6285561713404294760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 158
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ba3688ae1475bd0800000000000000
+      internalID: -2641570180863120563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_110
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 158
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d966123e2deb4d8f0800000000000000
+      internalID: -516578244277737827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_111
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 171
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4304a608693560800000000000000
+      internalID: 7293975449234000701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_112
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 171
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fa67f40a0d460e0800000000000000
+      internalID: -2277466124596105356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_113
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 159
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64d9fe1e098f7310800000000000000
+      internalID: 1404992302505120874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_114
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 177
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5194124258ad8a5b0800000000000000
+      internalID: -5356791491385538283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_115
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 179
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d432f0ff80a5170800000000000000
+      internalID: 8167850765753470325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_116
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 174
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a331ee26b7a0dc0800000000000000
+      internalID: -3671986881335969148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_117
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 157
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed58b3610480ff20800000000000000
+      internalID: 3454406055696031208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_118
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 157
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b4810e4f0eff40800000000000000
+      internalID: 5764061400788152843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_119
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 156
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8987ee8e5d41e5c0800000000000000
+      internalID: -4187981109958047350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_120
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 157
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a958b258ea68692d0800000000000000
+      internalID: -3272279995121433190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_121
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 157
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f65cb3c067e7590800000000000000
+      internalID: -7674566920078266547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_122
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 157
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5328b11eabd41300800000000000000
+      internalID: 222043822316069727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_123
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 146
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7755a6e9d311d3ed0800000000000000
+      internalID: -2432769267361753737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_124
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 150
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08fd947d314d2040800000000000000
+      internalID: 4624424124584687627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_125
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 145
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10da78ab218db630800000000000000
+      internalID: 3944450873156620318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 145
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dea9c1d2d0a695f0800000000000000
+      internalID: -750235460587376943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_127
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 146
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c926f21e15a81070800000000000000
+      internalID: 8077387480274708930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_128
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 160
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83a27e4c35e70430800000000000000
+      internalID: 3749217261986161550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_129
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 158
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbe49132d9623740800000000000000
+      internalID: 5130279277024308146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_130
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 132
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62615b6ab50a568e0800000000000000
+      internalID: -1700776968763140570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_131
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 132
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ccd1464378826e0800000000000000
+      internalID: -1862089786829976560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_132
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 133
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc96c24f0ee62faa0800000000000000
+      internalID: -6128714230449542709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_133
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 135
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597629cc9ee77b100800000000000000
+      internalID: 123707057400604565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_134
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 135
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd848edd70bd6bab0800000000000000
+      internalID: -4992562310059374371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_135
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 135
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae29b5ca60b6a0a10800000000000000
+      internalID: 1876429871158891242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_136
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 134
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c214719e9b2e00800000000000000
+      internalID: 1021084088084383972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_137
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 135
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dcdcb72701d5f60800000000000000
+      internalID: 8024588194933493065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_138
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 120
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0709938efc1dc1b70800000000000000
+      internalID: 8871196056897556592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_139
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 118
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1189b6e2b7b193e0800000000000000
+      internalID: -2048654376473886433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_140
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 131
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4754143c6771dff60800000000000000
+      internalID: 8069631906167211380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_141
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 141
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f62e84553b63e80800000000000000
+      internalID: -8199168892705017983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_142
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 140
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9030ef4889753c220800000000000000
+      internalID: 2504942130326012681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_143
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 112
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c334998a4f50640800000000000000
+      internalID: 5045707962501512222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_144
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc7168efaa03d5b0800000000000000
+      internalID: -5344916582124389154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_145
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 111
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2201293406d576b0800000000000000
+      internalID: -5299094072904842710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_146
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 111
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266b93449a09d1c30800000000000000
+      internalID: 4331777473268790882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_147
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3335345390ee89d0800000000000000
+      internalID: -2770029797408689345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_148
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 113
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47669db93ff10340800000000000000
+      internalID: 4828420898976851791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_149
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 113
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e498853cdf8af2d0800000000000000
+      internalID: -3244122405613300506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 109
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7737384ff4bdfd5f0800000000000000
+      internalID: -729623478159576201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_151
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 116
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebbebd7f332f1bd0800000000000000
+      internalID: -2657366499525739546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_152
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 116
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ac59b70a9826f0800000000000000
+      internalID: -709147583345548118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_153
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 119
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b49ec136fe7a2e0800000000000000
+      internalID: -2114458291061306567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_154
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 122
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3236622754d475ec0800000000000000
+      internalID: -3578306418259369181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_155
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 124
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35936c650d233d920800000000000000
+      internalID: 3013808446031411539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_156
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 59
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f6db10eb362ef40800000000000000
+      internalID: 5756272941457043244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_157
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 60
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e1e4d0a9e41860800000000000000
+      internalID: 7499876156454331887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_158
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 59
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b03eb0913222710800000000000000
+      internalID: 1666933402561088265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_159
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 59
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f94ebf923aa91e0800000000000000
+      internalID: -2190258868047274115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_160
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 36
+        width: 18
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35a2a58d33449910800000000000000
+      internalID: 1843172079015470398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_161
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 73
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adff7fe5518525400800000000000000
+      internalID: 311408173052854234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_162
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 48
+        width: 11
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631d424483c92a170800000000000000
+      internalID: 8188278837988348214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_163
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 45
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913c3dcb03b95ccf0800000000000000
+      internalID: -232609172110982375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_164
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 45
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db32d71804717d20800000000000000
+      internalID: 3274525982183275477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_165
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 45
+        width: 13
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6612a542bfdf70890800000000000000
+      internalID: -7491740200019025562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_166
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 45
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa52d1872ca2aee0800000000000000
+      internalID: -1251248460773827841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_167
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 88
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e75e1ac5e015330800000000000000
+      internalID: 3697752560063839857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_168
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 59
+        width: 152
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91acb8109ed9f7b0800000000000000
+      internalID: -5189872385096113765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_169
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 37
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2169b4c4c282a090800000000000000
+      internalID: -8024707804395118294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_170
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 36
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a5587e184a3c2f0800000000000000
+      internalID: -953737818230400399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_171
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 33
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49162880910f582a0800000000000000
+      internalID: -6735713677355097708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_172
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 33
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c6171a5a86c5950800000000000000
+      internalID: 6439136627820424199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_173
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 32
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc522a9f512fee20800000000000000
+      internalID: 3381958539670084815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_174
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 32
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bec0ebc9e9ae98b0800000000000000
+      internalID: -5143486902797545803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 168-1684550_super-mario-world-sprite-png-super-mario-coin-removebg-preview_175
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 30
+        width: 147
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eea96c59fcc1af0800000000000000
+      internalID: -424236022690550171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4833a61008420ab4592af25e70023042
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
