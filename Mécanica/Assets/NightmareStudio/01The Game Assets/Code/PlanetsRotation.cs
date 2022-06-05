@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class PlanetsRotation : MonoBehaviour
 {
-    public Vector3 rotationDir;
-    public float speedRotation;
-    Vector3 myRotation;
+    float rotateToX, rotateToY, rotateToZ;
+    public int speedRotationX, speedRotationY, speedRotationZ;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +15,9 @@ public class PlanetsRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.Rotate((rotationDir * speedRotation)/Time.deltaTime);
+        rotateToX += Time.deltaTime * speedRotationX;
+        rotateToY += Time.deltaTime * speedRotationY;
+        rotateToZ += Time.deltaTime * speedRotationZ;
+        transform.rotation = Quaternion.Euler(rotateToX,rotateToY,rotateToZ);
     }
 }
