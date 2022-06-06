@@ -78,7 +78,7 @@ public class GravityUniversalGravity : MonoBehaviour
         acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
         fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
         //fallSpeed = ((acelerationSpeed.x + acelerationSpeed.y)/2) * fallSpeedController;
-        fallingObject = ((gravity.normalized * fallSpeed)*-1);
+        fallingObject += ((gravity.normalized * fallSpeed)*-1);
         
         // Gravity Action
         if(!isGrounded)

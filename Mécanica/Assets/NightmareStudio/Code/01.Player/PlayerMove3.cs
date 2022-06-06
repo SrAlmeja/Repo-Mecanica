@@ -6,7 +6,6 @@ public class PlayerMove3 : MonoBehaviour
 {
 
     public GameObject player;
-    private GravityUniversalGravity GUG;
     public float speed;
     float movingCharacter;
     float friction;
