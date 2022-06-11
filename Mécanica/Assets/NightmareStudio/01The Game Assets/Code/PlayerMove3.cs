@@ -8,6 +8,7 @@ public class PlayerMove3 : MonoBehaviour
     public GameObject player;
     public float speed;
     float movingCharacter;
+    float jumpingcharacter;
     float friction;
     void Start()
     {
@@ -19,6 +20,7 @@ public class PlayerMove3 : MonoBehaviour
     {
         Movement();
         movingCharacter = Input.GetAxisRaw("Horizontal");
+        
     }
     
     
