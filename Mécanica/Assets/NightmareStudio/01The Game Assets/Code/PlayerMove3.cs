@@ -26,7 +26,7 @@ public class PlayerMove3 : MonoBehaviour
     
     void Movement()
     {
-        friction = this.gameObject.GetComponent<GravityUniversalGravity>().frictionVect.x;
+        friction = this.gameObject.GetComponent<TheUniversalFisicsSystem>().frictionVect.x;
         
         Debug.Log("Friction " + friction);
         if(friction > speed)

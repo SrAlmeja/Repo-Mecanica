@@ -52,9 +52,9 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         if (!SpaceGravity)
         {
             Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
-            Vector3 gravityDirection = new Vector3 (objectPos.x, ((objectPos.y - 1)*fallSpeed*Time.deltaTime), 0);
+            Vector3 gravityDirection = new Vector3 (0, ((objectPos.y - 1)*fallSpeed*Time.deltaTime), 0);
             acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
-            fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
+            fallSpeed = ((Mathf.Pow(acelerationSpeed.y, 2))) * fallSpeedController;
             fallingObject += ((gravityDirection * fallSpeed)*-1);
             //Drag System
             constant = 0.5f;
@@ -62,7 +62,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
             Vector3 dragVector =  constant * Density * speed * fallingObject;
             //GravityAction
             if(!isGrounded){
-                gameObject.transform.Translate((fallingObject-dragVector)*Time.deltaTime);
+                gameObject.transform.Translate((fallingObject)*Time.deltaTime);
                 if(dragVector.magnitude >= fallingObject.magnitude){
                     finalSpeedx = 0;
                     finalSpeedy = 0;
@@ -75,7 +75,6 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                 }
             }
         }
-        /*
         else //Planet Gravity
         {
             //Distance & Position
@@ -114,7 +113,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                     finalSpeedy = 1 - (dragVector.y);
                 }
             }
-        }*/
+        }
     }
     private void OnTriggerEnter(Collider other) 
     {
@@ -155,7 +154,9 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         if(other.gameObject.tag == "Planet")
         {
             isGrounded = true;
+            Debug.Log("Colisione");
         }
+        
         if(other.gameObject.tag == "FrictionZone")
         {
             isGrounded = true;

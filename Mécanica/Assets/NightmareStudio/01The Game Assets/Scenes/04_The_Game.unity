@@ -232,7 +232,7 @@ GameObject:
   - component: {fileID: 80516802}
   m_Layer: 0
   m_Name: Primera base (1)
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 271032233}
   m_Layer: 0
   m_Name: im a Atmosphere
-  m_TagString: Planet
+  m_TagString: Atmosphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 838383286}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2750,7 +2750,7 @@ GameObject:
   - component: {fileID: 1014065321}
   m_Layer: 0
   m_Name: im a Atmosphere
-  m_TagString: Planet
+  m_TagString: Atmosphere
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3034,9 +3034,10 @@ GameObject:
   - component: {fileID: 1177122209}
   - component: {fileID: 1177122208}
   - component: {fileID: 1177122207}
+  - component: {fileID: 1177122210}
   m_Layer: 0
   m_Name: awa
-  m_TagString: Untagged
+  m_TagString: Drag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3117,6 +3118,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1177122205}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1177122210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177122205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c459c714f0c94b43b8990d9325bc618, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  density: 5
 --- !u!1 &1215871735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,7 +3340,7 @@ GameObject:
   - component: {fileID: 1427185233}
   m_Layer: 0
   m_Name: Primera base
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3799,6 +3813,9 @@ GameObject:
   - component: {fileID: 1648416681}
   - component: {fileID: 1648416680}
   - component: {fileID: 1648416679}
+  - component: {fileID: 1648416683}
+  - component: {fileID: 1648416682}
+  - component: {fileID: 1648416684}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3814,7 +3831,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648416677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22.9, y: 16.16, z: 0}
+  m_LocalPosition: {x: -28.1, y: 21.1, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1917745318}
@@ -3883,6 +3900,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648416677}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1648416682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648416677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b193d962475f8a4680bb4485fbb673f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theObject: {fileID: 1648416677}
+  planets:
+  - {fileID: 1882028626}
+  - {fileID: 1111627592}
+  - {fileID: 487418270}
+  finalSpeedx: 1
+  finalSpeedy: 1
+  initialSpeed: 0.1
+  fallSpeed: 1
+  fallSpeedController: 0.0001
+  acelerationSpeed: {x: 0, y: 0, z: 0}
+  SpaceGravity: 1
+  isGrounded: 0
+  mass: 10
+  frictionVect: {x: 0, y: 0, z: 0}
+--- !u!114 &1648416683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648416677}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 553453b7c2438954692919352366b0eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1648416677}
+  speed: 10
+--- !u!54 &1648416684
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648416677}
+  serializedVersion: 2
+  m_Mass: 0.0001
+  m_Drag: 0
+  m_AngularDrag: 0.0001
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 72
+  m_CollisionDetection: 0
 --- !u!1 &1652737997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4264,7 +4338,7 @@ GameObject:
   - component: {fileID: 1724431855}
   m_Layer: 0
   m_Name: Primera base (2)
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4751,7 +4825,7 @@ GameObject:
   - component: {fileID: 2003143904}
   m_Layer: 0
   m_Name: Primera base (3)
-  m_TagString: Untagged
+  m_TagString: FrictionZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
