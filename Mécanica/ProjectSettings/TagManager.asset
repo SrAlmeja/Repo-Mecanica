@@ -8,6 +8,7 @@ TagManager:
   - Planet
   - Drag
   - FrictionZone
+  - Atmosphere
   layers:
   - Default
   - TransparentFX

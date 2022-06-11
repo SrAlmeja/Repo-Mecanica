@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class TheUniversalFisicsSystem : MonoBehaviour
 {
-    //Planets Detection
-    Vector3 planetPos;
-    Vector3 objectPos;
     public GameObject theObject;
     public GameObject [] planets;
     float closeDistance;
@@ -24,8 +21,8 @@ public class TheUniversalFisicsSystem : MonoBehaviour
     [SerializeField] float fallSpeed;
     public float fallSpeedController;
     [SerializeField] Vector3 acelerationSpeed;
-    //Athmos
-    bool SpaceGravity;
+    //Atmosphere
+    [SerializeField]bool SpaceGravity;
     //Drag
     float constant;
     float Density;
@@ -43,76 +40,113 @@ public class TheUniversalFisicsSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SpaceGravity = false;
     }
     // Update is called once per frame
     void Update()
     {
         GravitySystem();
     }
-    void VerticalGravity(){
-        Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
-        Vector3 gravityDirection = new Vector3 (objectPos.x, ((objectPos.y - 1)*fallSpeed*Time.deltaTime), 0);
-        acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
-        fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
-        fallingObject += ((gravityDirection * fallSpeed)*-1);
-        //Aqui me quede ayer
-    }
     void GravitySystem(){
-        //Distance & Position
-        closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
-        for(int i = 0; i<planets.Length; i++){
-            planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
-            if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
-        }
-        //Planet/Object Position
-        Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
-        Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x, planets[closerPlanet].transform.position.y,0);
-        //FallDirection
-        Vector3 gravityDirection = new Vector3 (((objectPos.x - planetPos.x)*fallSpeed*Time.deltaTime), ((objectPos.y - planetPos.y)*fallSpeed*Time.deltaTime), 0);
-        Vector3 uniGravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
-        //Aceleration
-        acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
-        fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
-        fallingObject += ((uniGravity.normalized * fallSpeed)*-1);
-        //Mass (Fix first)
-        gravityForce = Mathf.Sqrt (((Mathf.Pow(fallingObject.x, 2)) + ((Mathf.Pow(fallingObject.y, 2)))));
-        //Drag System
-        constant = 0.5f;
-        float speed = acelerationSpeed.magnitude;
-        Vector3 dragVector =  constant * Density * speed * fallingObject;
-        //GravityAction
-        if(!isGrounded){
-            gameObject.transform.Translate((fallingObject+dragVector)*Time.deltaTime);
-            if(dragVector.magnitude >= fallingObject.magnitude){
-            finalSpeedx = 0;
-            finalSpeedy = 0;
-            acelerationSpeed = new Vector3 (0,0,0);
-            fallingObject = Vector3.zero;
-            }
-            else{
-                finalSpeedx = 1 - (dragVector.x);
-                finalSpeedy = 1 - (dragVector.y);
+        //Vertical Gravity
+        if (!SpaceGravity)
+        {
+            Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
+            Vector3 gravityDirection = new Vector3 (objectPos.x, ((objectPos.y - 1)*fallSpeed*Time.deltaTime), 0);
+            acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
+            fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
+            fallingObject += ((gravityDirection * fallSpeed)*-1);
+            //Drag System
+            constant = 0.5f;
+            float speed = acelerationSpeed.magnitude;
+            Vector3 dragVector =  constant * Density * speed * fallingObject;
+            //GravityAction
+            if(!isGrounded){
+                gameObject.transform.Translate((fallingObject-dragVector)*Time.deltaTime);
+                if(dragVector.magnitude >= fallingObject.magnitude){
+                    finalSpeedx = 0;
+                    finalSpeedy = 0;
+                    acelerationSpeed = new Vector3 (0,0,0);
+                    fallingObject = Vector3.zero;
+                }
+                else{
+                    finalSpeedx = 1 - (dragVector.x);
+                    finalSpeedy = 1 - (dragVector.y);
+                }
             }
         }
+        /*
+        else //Planet Gravity
+        {
+            //Distance & Position
+            closeDistance = Vector3.Distance(transform.position, planets[0].transform.position);
+            for(int i = 0; i<planets.Length; i++){
+                planetDistance = Vector3.Distance(transform.position, planets[i].transform.position);
+                if (planetDistance <= closeDistance) {closeDistance = planetDistance; closerPlanet = i;}
+            }
+            //Planet/Object Position
+            Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
+            Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x, planets[closerPlanet].transform.position.y,0);
+            //FallDirection
+            Vector3 gravityDirection = new Vector3 (((objectPos.x - planetPos.x)*fallSpeed*Time.deltaTime), ((objectPos.y - planetPos.y)*fallSpeed*Time.deltaTime), 0);
+            Vector3 uniGravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
+            //Aceleration
+            acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
+            fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
+            fallingObject += ((uniGravity.normalized * fallSpeed)*-1);
+            //Mass (Fix first)
+            gravityForce = Mathf.Sqrt (((Mathf.Pow(fallingObject.x, 2)) + ((Mathf.Pow(fallingObject.y, 2)))));
+            //Drag System
+            constant = 0.5f;
+            float speed = acelerationSpeed.magnitude;
+            Vector3 dragVector =  constant * Density * speed * fallingObject;
+            //GravityAction
+            if(!isGrounded){
+                gameObject.transform.Translate((fallingObject+dragVector)*Time.deltaTime);
+                if(dragVector.magnitude >= fallingObject.magnitude){
+                    finalSpeedx = 0;
+                    finalSpeedy = 0;
+                    acelerationSpeed = new Vector3 (0,0,0);
+                    fallingObject = Vector3.zero;
+                }
+                else{
+                    finalSpeedx = 1 - (dragVector.x);
+                    finalSpeedy = 1 - (dragVector.y);
+                }
+            }
+        }*/
     }
     private void OnTriggerEnter(Collider other) 
     {
+        if (other.tag == "Atmosphere")
+        {
+            Debug.Log("cambiando a la gravedad planetaria");
+            SpaceGravity = true;
+        }
+        
         if(other.tag == "Drag")
         {
             Debug.Log("Jelly funciona");
             dragZone = true;
             Density = other.gameObject.GetComponent<GetDensity>().density; 
-        }    
+        }
     }
 
     private void OnTriggerExit(Collider other) 
     {
+        if (other.tag == "Atmosphere")
+        {
+            Debug.Log("cambiando a gravedad normal");
+            SpaceGravity = false;
+        }
+        
         if(other.tag == "Drag")
         {
             dragZone = false;
             Debug.Log("Exit");
-        }    
+        }
+
+        
     }
 
     private void OnCollisionEnter(Collision other) 
@@ -152,3 +186,4 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         }
     }
 }
+
