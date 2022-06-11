@@ -8,7 +8,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
     Vector3 planetPos;
     Vector3 objectPos;
     public gameObject theObject;
-    
+
     //Vertical Gravity
     //Universal Gravity 
     // Start is called before the first frame update
