@@ -20,7 +20,6 @@ public class PlayerMove3 : MonoBehaviour
     {
         Movement();
         movingCharacter = Input.GetAxisRaw("Horizontal");
-        
     }
     
     

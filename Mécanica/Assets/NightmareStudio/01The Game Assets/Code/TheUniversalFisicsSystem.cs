@@ -48,21 +48,21 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         GravitySystem();
     }
     void GravitySystem(){
+        
         //Vertical Gravity
         if (!SpaceGravity)
         {
             Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
-            Vector3 gravityDirection = new Vector3 (0, ((objectPos.y - 1)*fallSpeed*Time.deltaTime), 0);
-            acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
+            Vector3 gravityDirection = new Vector3 (0, ((objectPos.y - 1)), 0);
+            acelerationSpeed = new Vector3 ((finalSpeedx-initialSpeed), (finalSpeedy-initialSpeed), 0);
             fallSpeed = ((Mathf.Pow(acelerationSpeed.y, 2))) * fallSpeedController;
-            fallingObject += ((gravityDirection * fallSpeed)*-1);
             //Drag System
             constant = 0.5f;
             float speed = acelerationSpeed.magnitude;
             Vector3 dragVector =  constant * Density * speed * fallingObject;
             //GravityAction
             if(!isGrounded){
-                gameObject.transform.Translate((fallingObject)*Time.deltaTime);
+                
                 if(dragVector.magnitude >= fallingObject.magnitude){
                     finalSpeedx = 0;
                     finalSpeedy = 0;
@@ -73,7 +73,27 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                     finalSpeedx = 1 - (dragVector.x);
                     finalSpeedy = 1 - (dragVector.y);
                 }
+                fallingObject += ((gravityDirection * fallSpeed)*-1);
             }
+            if(isGrounded)
+            {
+                fallSpeedController = 0;
+                //finalSpeedx = 0;
+                finalSpeedy = 0;
+                fallingObject = (Vector3.zero);
+                acelerationSpeed = new Vector3 (0,0,0);
+                Debug.Log("Colisione");
+
+                if(friction == true)
+                {   
+                    Debug.Log("Friction is true");
+                    float normalForce = mass * 9.8f;
+                    coeficientFriction = 1;
+                    frictionVect = (-coeficientFriction * normalForce * gameObject.transform.position.normalized)/10;
+                    Debug.Log("FrictionVectValue"+frictionVect);
+                }
+            }
+            
         }
         else //Planet Gravity
         {
@@ -87,21 +107,20 @@ public class TheUniversalFisicsSystem : MonoBehaviour
             Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
             Vector3 planetPos = new Vector3 (planets[closerPlanet].transform.position.x, planets[closerPlanet].transform.position.y,0);
             //FallDirection
-            Vector3 gravityDirection = new Vector3 (((objectPos.x - planetPos.x)*fallSpeed*Time.deltaTime), ((objectPos.y - planetPos.y)*fallSpeed*Time.deltaTime), 0);
+            Vector3 gravityDirection = new Vector3 (((objectPos.x - planetPos.x)), ((objectPos.y - planetPos.y)), 0);
             Vector3 uniGravity = new Vector3 (gravityDirection.x, gravityDirection.y, 0);
             //Aceleration
-            acelerationSpeed = new Vector3 (((finalSpeedx-initialSpeed)/Time.deltaTime), ((finalSpeedy-initialSpeed)/Time.deltaTime), 0);
+            acelerationSpeed = new Vector3 ((finalSpeedx-initialSpeed), (finalSpeedy-initialSpeed), 0);
             fallSpeed = (Mathf.Sqrt ((Mathf.Pow(acelerationSpeed.x, 2)) + (Mathf.Pow(acelerationSpeed.y, 2)))) * fallSpeedController;
-            fallingObject += ((uniGravity.normalized * fallSpeed)*-1);
             //Mass (Fix first)
             gravityForce = Mathf.Sqrt (((Mathf.Pow(fallingObject.x, 2)) + ((Mathf.Pow(fallingObject.y, 2)))));
-            //Drag System
+            //Drag System}
             constant = 0.5f;
             float speed = acelerationSpeed.magnitude;
             Vector3 dragVector =  constant * Density * speed * fallingObject;
             //GravityAction
             if(!isGrounded){
-                gameObject.transform.Translate((fallingObject+dragVector)*Time.deltaTime);
+                fallingObject += ((uniGravity * fallSpeed)*-1);
                 if(dragVector.magnitude >= fallingObject.magnitude){
                     finalSpeedx = 0;
                     finalSpeedy = 0;
@@ -113,7 +132,29 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                     finalSpeedy = 1 - (dragVector.y);
                 }
             }
+            if(isGrounded)
+            {
+                fallSpeedController = 0;
+                //finalSpeedx = 0;
+                finalSpeedy = 0;
+                fallingObject = (Vector3.zero);
+                acelerationSpeed = new Vector3 (0,0,0);
+                Debug.Log("Colisione");
+
+                if(friction == true)
+                {   
+                    Debug.Log("Friction is true");
+                    float normalForce = mass * 9.8f;
+                    coeficientFriction = 1;
+                    frictionVect = (-coeficientFriction * normalForce * gameObject.transform.position.normalized)/10;
+                    Debug.Log("FrictionVectValue"+frictionVect);
+                }
+            }
+
+            //Rotation
+            theObject.transform.rotation = Quaternion.FromToRotation(transform.up, uniGravity)* transform.rotation;
         }
+        gameObject.transform.Translate(fallingObject*Time.deltaTime);
     }
     private void OnTriggerEnter(Collider other) 
     {
@@ -137,6 +178,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         {
             Debug.Log("cambiando a gravedad normal");
             SpaceGravity = false;
+            theObject.transform.rotation = Quaternion.EulerRotation(0,0,0);
         }
         
         if(other.tag == "Drag")
