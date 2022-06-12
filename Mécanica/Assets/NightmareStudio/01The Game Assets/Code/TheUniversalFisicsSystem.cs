@@ -37,6 +37,10 @@ public class TheUniversalFisicsSystem : MonoBehaviour
     float WeightObject;
     public float mass;
     public Vector3 frictionVect;
+    //Jump
+    private float directionfall;
+    
+    [SerializeField] private bool isJumping;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,12 +50,14 @@ public class TheUniversalFisicsSystem : MonoBehaviour
     void Update()
     {
         GravitySystem();
+        jump();
     }
     void GravitySystem(){
         
         //Vertical Gravity
         if (!SpaceGravity)
         {
+            directionfall = -1f;
             Vector3 objectPos = new Vector3 (theObject.transform.position.x, theObject.transform.position.y, 0);
             Vector3 gravityDirection = new Vector3 (0, ((objectPos.y - 1)), 0);
             acelerationSpeed = new Vector3 ((finalSpeedx-initialSpeed), (finalSpeedy-initialSpeed), 0);
@@ -73,7 +79,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                     finalSpeedx = 1 - (dragVector.x);
                     finalSpeedy = 1 - (dragVector.y);
                 }
-                fallingObject += ((gravityDirection * fallSpeed)*-1);
+                fallingObject += ((gravityDirection * fallSpeed)*directionfall);
             }
             if(isGrounded)
             {
@@ -120,7 +126,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
             Vector3 dragVector =  constant * Density * speed * fallingObject;
             //GravityAction
             if(!isGrounded){
-                fallingObject += ((uniGravity * fallSpeed)*-1);
+                fallingObject += ((uniGravity * fallSpeed)*directionfall);
                 if(dragVector.magnitude >= fallingObject.magnitude){
                     finalSpeedx = 0;
                     finalSpeedy = 0;
@@ -132,30 +138,48 @@ public class TheUniversalFisicsSystem : MonoBehaviour
                     finalSpeedy = 1 - (dragVector.y);
                 }
             }
-            if(isGrounded)
+
+            if (isGrounded)
             {
                 fallSpeedController = 0;
                 //finalSpeedx = 0;
                 finalSpeedy = 0;
                 fallingObject = (Vector3.zero);
-                acelerationSpeed = new Vector3 (0,0,0);
+                acelerationSpeed = new Vector3(0, 0, 0);
                 Debug.Log("Colisione");
-
-                if(friction == true)
-                {   
+                if (friction == true)
+                {
                     Debug.Log("Friction is true");
                     float normalForce = mass * 9.8f;
                     coeficientFriction = 1;
-                    frictionVect = (-coeficientFriction * normalForce * gameObject.transform.position.normalized)/10;
-                    Debug.Log("FrictionVectValue"+frictionVect);
+                    frictionVect = (-coeficientFriction * normalForce * gameObject.transform.position.normalized) / 10;
+                    Debug.Log("FrictionVectValue" + frictionVect);
+                }
+                if (isJumping = true)
+                {
+                    directionfall = 1;
+                    fallingObject = ((uniGravity * fallSpeed)*directionfall);
                 }
             }
-
             //Rotation
             theObject.transform.rotation = Quaternion.FromToRotation(transform.up, uniGravity)* transform.rotation;
         }
         gameObject.transform.Translate(fallingObject*Time.deltaTime);
     }
+
+    void jump()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            isJumping = true;
+            isGrounded = false;
+        }
+        if (Input.GetKeyUp("space"))
+        {
+            isJumping = false;
+        }
+    }
+    
     private void OnTriggerEnter(Collider other) 
     {
         if (other.tag == "Atmosphere")
@@ -168,6 +192,7 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         {
             Debug.Log("Jelly funciona");
             dragZone = true;
+            isGrounded = true;
             Density = other.gameObject.GetComponent<GetDensity>().density; 
         }
     }
@@ -184,10 +209,9 @@ public class TheUniversalFisicsSystem : MonoBehaviour
         if(other.tag == "Drag")
         {
             dragZone = false;
+            isGrounded = false;
             Debug.Log("Exit");
         }
-
-        
     }
 
     private void OnCollisionEnter(Collision other) 
